@@ -1,0 +1,56 @@
+header {
+  display: block;
+  overflow: auto;
+  padding: 0 2rem;
+  height: 125px;
+  
+  .header-info {
+    height: 125px;
+    
+    h1 {
+      font-size: 4rem;
+    }
+    
+    h2 {
+      margin: 0px;
+    }
+  }
+  
+  img {
+    float:left;
+    height: 100px;
+    margin: 0px 15px 0 0;
+    @include box-shadow(2px, 2px, 2px, #333);
+    @include vertical-align();
+  }
+}
+
+.banner {
+  background: url('../img/stock-photo.jpg') no-repeat;
+  background-size: cover;
+  padding: 0 0 34rem 0;
+  
+  .banner-content {
+    
+    h1 {
+      margin: 0;
+    }  
+  }
+  
+  .navbar {
+    margin-bottom: 24rem;
+    background: #8a2003;
+    @include border-radius(0px);
+    
+    a {
+      color: $white;
+    }
+    
+    li {
+      a {
+        color: $white;
+      }
+    }
+     
+  }
+}

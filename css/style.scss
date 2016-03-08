@@ -1,1 +1,120 @@
+$white: #fff;
+$grey: #333;
 
+* {
+	box-sizing: border-box;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+}
+@mixin breakpoint($class) {
+  @if $class == xs {
+    @media (max-width: 767px AND screen) { @content; }
+  }
+ 
+  @else if $class == sm {
+    @media (min-width: 768px) { @content; }
+  }
+ 
+  @else if $class == md {
+    @media (min-width: 992px) { @content; }
+  }
+ 
+  @else if $class == lg {
+    @media (min-width: 1200px) { @content; }
+  }
+ 
+  @else {
+    @warn "Breakpoint mixin supports: xs, sm, md, lg";
+  }
+}
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+  -moz-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin vertical-align($position: relative) {
+  position: $position;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+  @if $inset {
+    -webkit-box-shadow:inset $top $left $blur $color;
+    -moz-box-shadow:inset $top $left $blur $color;
+    box-shadow:inset $top $left $blur $color;
+  } @else {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+  }
+}
+
+@mixin center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@mixin centerer {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin links($link: '#008CBA',  $hover: '#e62c25', $active: 'lighten($hover, 10%)', $focus: $hover, $visited: $link) {
+  &:link    { color: $link;    }
+  @if $visited {
+    &:visited { color: $visited; }
+  } @else {
+    &:visited { color: $link; }
+  }
+  &:hover   { color: $hover;   }
+  &:active  { color: $active;  }
+  &:focus   { color: $focus;   }
+}
+
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  zoom: 1;
+}
+
+.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.ctr {
+  text-align: center;
+}
+.nopad {
+  padding: 0;
+}
+
+.clearfix {
+  clear: both;  
+}
+
+
+@import "header-banner";
