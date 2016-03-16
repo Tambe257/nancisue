@@ -1,44 +1,90 @@
 header {
   display: block;
   overflow: auto;
-  padding: 0 2rem;
-  height: 125px;
+  padding: 0.5rem 2rem;
+  height: 75px;
+  
+  @include breakpoint(sm) {
+    height: 100px;
+    padding: 0 2rem;
+  }
   
   .header-info {
-    height: 125px;
+    height: 75px;
+    color: #4a4b4f;
+    clear: both;
+    
+    @include breakpoint(sm) {
+      height: 105px;
+      width: 100%;
+    }
     
     h1 {
-      font-size: 4rem;
+      font-size: 3rem;
+      font-family: $main-font;
+      text-transform: uppercase;
+      font-weight: 200;
+      margin: 0;
+      
+      @include breakpoint(sm) {
+        font-size: 5rem;
+      }
     }
     
     h2 {
       margin: 0px;
+      font-size: 2.5rem;
+      
+      @include breakpoint(sm) {
+        font-size: 3rem;
+      }
     }
-  }
-  
-  img {
-    float:left;
-    height: 100px;
-    margin: 0px 15px 0 0;
-    @include box-shadow(2px, 2px, 2px, #333);
-    @include vertical-align();
+    
+    img {
+      display: none;
+      height: 90px;
+      
+      @include breakpoint(sm) {
+        display: block;
+        float: right;
+        margin: -8.2rem 2rem 0 0;
+      }
+    }
   }
 }
 
 .banner {
-  background: url('../img/stock-photo.jpg') no-repeat;
+  background: url('../img/stock-photo-small.jpg') no-repeat;
   background-size: cover;
-  padding: 0 0 34rem 0;
+  padding: 0 0 14rem 0;
+  
+  @include breakpoint(sm) {
+    background: url('../img/stock-photo.jpg') no-repeat;
+  }
   
   .banner-content {
     
-    h1 {
-      margin: 0;
-    }  
+    .nanci-card {
+      display: block;
+      float: left;
+      overflow: auto;
+      height: 475px;
+      width: 240px;
+      
+      .card-info {
+        height: 200px;
+        
+        background: $white;
+      }
+      
+      img {
+        height: 275px;
+      }
+    } 
   }
   
   .navbar {
-    margin-bottom: 24rem;
+    margin-bottom: 14rem;
     background: #8a2003;
     @include border-radius(0px);
     

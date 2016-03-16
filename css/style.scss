@@ -1,6 +1,11 @@
 $white: #fff;
 $grey: #333;
 
+@import "mixins";
+@include font-face(Montserrat, "/fonts/Montserrat");
+
+$main-font: 'Work Sans', sans-serif;
+
 * {
 	box-sizing: border-box;
 }
@@ -114,6 +119,10 @@ body {
 
 .clearfix {
   clear: both;  
+}
+
+.heavy {
+  font-weight: 700;
 }
 
 

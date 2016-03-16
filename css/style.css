@@ -1,3 +1,6 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat.eot?") format("eot"), url("/fonts/Montserrat.woff2") format("woff2"), url("/fonts/Montserrat.woff") format("woff"), url("/fonts/Montserrat.ttf") format("truetype"), url("/fonts/Montserrat.svg#Montserrat") format("svg"); }
 * {
   box-sizing: border-box; }
 
@@ -31,38 +34,70 @@ body {
 .clearfix {
   clear: both; }
 
+.heavy {
+  font-weight: 700; }
+
 header {
   display: block;
   overflow: auto;
-  padding: 0 2rem;
-  height: 125px; }
+  padding: 0.5rem 2rem;
+  height: 75px; }
+  @media (min-width: 768px) {
+    header {
+      height: 100px;
+      padding: 0 2rem; } }
   header .header-info {
-    height: 125px; }
+    height: 75px;
+    color: #4a4b4f;
+    clear: both; }
+    @media (min-width: 768px) {
+      header .header-info {
+        height: 105px;
+        width: 100%; } }
     header .header-info h1 {
-      font-size: 4rem; }
+      font-size: 3rem;
+      font-family: "Work Sans", sans-serif;
+      text-transform: uppercase;
+      font-weight: 200;
+      margin: 0; }
+      @media (min-width: 768px) {
+        header .header-info h1 {
+          font-size: 5rem; } }
     header .header-info h2 {
-      margin: 0px; }
-  header img {
-    float: left;
-    height: 100px;
-    margin: 0px 15px 0 0;
-    -webkit-box-shadow: 2px 2px 2px #333;
-    -moz-box-shadow: 2px 2px 2px #333;
-    box-shadow: 2px 2px 2px #333;
-    position: relative;
-    top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%); }
+      margin: 0px;
+      font-size: 2.5rem; }
+      @media (min-width: 768px) {
+        header .header-info h2 {
+          font-size: 3rem; } }
+    header .header-info img {
+      display: none;
+      height: 90px; }
+      @media (min-width: 768px) {
+        header .header-info img {
+          display: block;
+          float: right;
+          margin: -8.2rem 2rem 0 0; } }
 
 .banner {
-  background: url("../img/stock-photo.jpg") no-repeat;
+  background: url("../img/stock-photo-small.jpg") no-repeat;
   background-size: cover;
-  padding: 0 0 34rem 0; }
-  .banner .banner-content h1 {
-    margin: 0; }
+  padding: 0 0 14rem 0; }
+  @media (min-width: 768px) {
+    .banner {
+      background: url("../img/stock-photo.jpg") no-repeat; } }
+  .banner .banner-content .nanci-card {
+    display: block;
+    float: left;
+    overflow: auto;
+    height: 475px;
+    width: 240px; }
+    .banner .banner-content .nanci-card .card-info {
+      height: 200px;
+      background: #fff; }
+    .banner .banner-content .nanci-card img {
+      height: 275px; }
   .banner .navbar {
-    margin-bottom: 24rem;
+    margin-bottom: 14rem;
     background: #8a2003;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
