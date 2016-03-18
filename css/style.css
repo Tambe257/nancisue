@@ -89,15 +89,67 @@ header {
     display: block;
     float: left;
     overflow: auto;
-    height: 475px;
-    width: 240px; }
+    height: 455px;
+    width: 240px;
+    background: #fff;
+    text-align: center; }
     .banner .banner-content .nanci-card .card-info {
       height: 200px;
-      background: #fff; }
+      color: #4a4b4f; }
+      .banner .banner-content .nanci-card .card-info h1 {
+        font-size: 3.5rem;
+        margin: 1rem;
+        font-weight: 700; }
+      .banner .banner-content .nanci-card .card-info h2 {
+        font-size: 3.0rem;
+        margin: 1rem; }
+      .banner .banner-content .nanci-card .card-info h3 {
+        font-size: 2.0rem;
+        margin: 1rem; }
+      .banner .banner-content .nanci-card .card-info h4 {
+        font-size: 1.7rem; }
+      .banner .banner-content .nanci-card .card-info ul.social-icons {
+        list-style: none;
+        padding: 0; }
+        .banner .banner-content .nanci-card .card-info ul.social-icons li {
+          display: inline-block;
+          margin: 0 8px;
+          width: 26px;
+          height: 25px; }
+          .banner .banner-content .nanci-card .card-info ul.social-icons li .mail {
+            display: block;
+            width: 26px;
+            height: 25px;
+            background: transparent url("../img/mail-light.png") no-repeat;
+            -webkit-transition: background .3s ease-in-out;
+            -moz-transition: background .3s ease-in-out;
+            transition: background .3s ease-in-out; }
+            .banner .banner-content .nanci-card .card-info ul.social-icons li .mail:hover {
+              background: transparent url("../img/mail-dark.png") no-repeat; }
+          .banner .banner-content .nanci-card .card-info ul.social-icons li .facebook {
+            display: block;
+            width: 26px;
+            height: 25px;
+            background: url("/img/facebook-light.png");
+            -webkit-transition: background .3s ease-in-out;
+            -moz-transition: background .3s ease-in-out;
+            transition: background .3s ease-in-out; }
+            .banner .banner-content .nanci-card .card-info ul.social-icons li .facebook:hover {
+              background: transparent url("../img/facebook-dark.png") no-repeat; }
+          .banner .banner-content .nanci-card .card-info ul.social-icons li .linked {
+            display: block;
+            width: 26px;
+            height: 25px;
+            background: url("/img/linked-light.png");
+            -webkit-transition: background .3s ease-in-out;
+            -moz-transition: background .3s ease-in-out;
+            transition: background .3s ease-in-out; }
+            .banner .banner-content .nanci-card .card-info ul.social-icons li .linked:hover {
+              background: transparent url("../img/linked-dark.png") no-repeat; }
     .banner .banner-content .nanci-card img {
       height: 275px; }
   .banner .navbar {
-    margin-bottom: 14rem;
+    margin-bottom: 6rem;
     background: #8a2003;
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
@@ -107,3 +159,11 @@ header {
       color: #fff; }
     .banner .navbar li a {
       color: #fff; }
+
+.second-section {
+  padding: 5rem 1.5rem; }
+  .second-section .second-info-box {
+    text-align: center;
+    padding: 0 15px;
+    display: block;
+    overflow: auto; }

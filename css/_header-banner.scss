@@ -11,7 +11,7 @@ header {
   
   .header-info {
     height: 75px;
-    color: #4a4b4f;
+    color: $font-grey;
     clear: both;
     
     @include breakpoint(sm) {
@@ -68,13 +68,89 @@ header {
       display: block;
       float: left;
       overflow: auto;
-      height: 475px;
+      height: 455px;
       width: 240px;
+      background: $white;
+      text-align: center;
       
       .card-info {
         height: 200px;
+        color: $font-grey;
         
-        background: $white;
+        h1 {
+          font-size: 3.5rem;
+          margin: 1rem;
+          font-weight: 700;
+        }
+        
+        h2 {
+          font-size: 3.0rem;
+          margin: 1rem;
+        }
+        
+        h3 {
+          font-size: 2.0rem;
+          margin: 1rem;
+        }
+        
+        h4 {
+          font-size: 1.7rem;
+        }
+        
+        ul.social-icons {
+          list-style: none;
+          padding: 0;
+          
+          
+          li {
+            display: inline-block;
+            margin: 0 8px;
+            width: 26px;
+            height: 25px;
+            
+            .mail {
+              display: block;
+              width: 26px;
+              height: 25px;
+              background: transparent url("../img/mail-light.png") no-repeat;
+              -webkit-transition: background .3s ease-in-out;
+              -moz-transition: background .3s ease-in-out;
+              transition: background .3s ease-in-out;
+              
+              &:hover {
+                background: transparent url("../img/mail-dark.png") no-repeat;
+              }
+            }
+
+            .facebook {
+              display: block;
+              width: 26px;
+              height: 25px;
+              background: url("/img/facebook-light.png");
+              -webkit-transition: background .3s ease-in-out;
+              -moz-transition: background .3s ease-in-out;
+              transition: background .3s ease-in-out;
+              
+              &:hover {
+                background: transparent url("../img/facebook-dark.png") no-repeat;
+              }
+            }
+
+            .linked {
+              display: block;
+              width: 26px;
+              height: 25px;
+              background: url("/img/linked-light.png");
+              -webkit-transition: background .3s ease-in-out;
+              -moz-transition: background .3s ease-in-out;
+              transition: background .3s ease-in-out;
+              
+              &:hover {
+                background: transparent url("../img/linked-dark.png") no-repeat;
+              }
+            }
+          }
+        }
       }
       
       img {
@@ -84,7 +160,7 @@ header {
   }
   
   .navbar {
-    margin-bottom: 14rem;
+    margin-bottom: 6rem;
     background: #8a2003;
     @include border-radius(0px);
     

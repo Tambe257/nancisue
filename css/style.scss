@@ -1,5 +1,6 @@
 $white: #fff;
 $grey: #333;
+$font-grey: #4a4b4f;
 
 @import "mixins";
 @include font-face(Montserrat, "/fonts/Montserrat");
@@ -127,3 +128,4 @@ body {
 
 
 @import "header-banner";
+@import "second-section";
