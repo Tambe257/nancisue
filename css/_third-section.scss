@@ -1,0 +1,23 @@
+.third-section {
+  background: #1ba6de;
+  display: block;
+  padding: 10rem 0;
+  
+  .third-info-box {
+    text-align: center;
+    
+    h2 {
+      color: $white;
+      font-size: 3rem;
+    }
+    
+    i {
+      color: $white;
+    }
+    
+    p {
+      font-size: 2rem;
+      color: $white;
+    }
+  }
+}

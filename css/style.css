@@ -89,12 +89,12 @@ header {
     display: block;
     float: left;
     overflow: auto;
-    height: 455px;
+    height: 445px;
     width: 240px;
     background: #fff;
     text-align: center; }
     .banner .banner-content .nanci-card .card-info {
-      height: 200px;
+      height: auto;
       color: #4a4b4f; }
       .banner .banner-content .nanci-card .card-info h1 {
         font-size: 3.5rem;
@@ -102,7 +102,7 @@ header {
         font-weight: 700; }
       .banner .banner-content .nanci-card .card-info h2 {
         font-size: 3.0rem;
-        margin: 1rem; }
+        margin: -0.5rem; }
       .banner .banner-content .nanci-card .card-info h3 {
         font-size: 2.0rem;
         margin: 1rem; }
@@ -164,6 +164,39 @@ header {
   padding: 5rem 1.5rem; }
   .second-section .second-info-box {
     text-align: center;
-    padding: 0 15px;
     display: block;
-    overflow: auto; }
+    overflow: auto;
+    text-transform: uppercase;
+    font-family: "Work Sans", sans-serif;
+    color: #4a4b4f; }
+    .second-section .second-info-box h2 {
+      font-weight: 700;
+      font-size: 3rem; }
+    .second-section .second-info-box p {
+      font-size: 1.8rem; }
+
+.third-section {
+  background: #1ba6de;
+  display: block;
+  padding: 10rem 0; }
+  .third-section .third-info-box {
+    text-align: center; }
+    .third-section .third-info-box h2 {
+      color: #fff;
+      font-size: 3rem; }
+    .third-section .third-info-box i {
+      color: #fff; }
+    .third-section .third-info-box p {
+      font-size: 2rem;
+      color: #fff; }
+
+footer {
+  background: #fff;
+  padding: 3rem 0;
+  text-align: center; }
+  @media (min-width: 768px) {
+    footer {
+      text-align: inherit; } }
+  @media (min-width: 768px) {
+    footer .footer-right {
+      text-align: right; } }

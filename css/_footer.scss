@@ -1,0 +1,17 @@
+footer {
+  background: $white;
+  padding: 3rem 0;
+  text-align: center;
+  
+  @include breakpoint(sm) {
+    text-align: inherit;  
+  }
+  
+  .footer-right {
+    
+    
+    @include breakpoint(sm) {
+      text-align: right;  
+    }
+  }
+}

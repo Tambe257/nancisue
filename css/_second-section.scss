@@ -3,9 +3,20 @@
   
   .second-info-box {
     text-align: center;
-    padding: 0 15px;
     display: block;
     overflow: auto;
+    text-transform: uppercase;
+    font-family: $main-font;
+    color: $font-grey;
+    
+    h2 {
+      font-weight: 700;
+      font-size: 3rem;
+    }
+    
+    p {
+      font-size: 1.8rem;  
+    }
     
     img {
       

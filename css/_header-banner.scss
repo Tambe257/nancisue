@@ -68,13 +68,13 @@ header {
       display: block;
       float: left;
       overflow: auto;
-      height: 455px;
+      height: 445px;
       width: 240px;
       background: $white;
       text-align: center;
       
       .card-info {
-        height: 200px;
+        height: auto;
         color: $font-grey;
         
         h1 {
@@ -85,7 +85,7 @@ header {
         
         h2 {
           font-size: 3.0rem;
-          margin: 1rem;
+          margin: -0.5rem;
         }
         
         h3 {
