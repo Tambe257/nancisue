@@ -1,14 +1,15 @@
-.third-section {
+#third-section {
   background: #1ba6de;
   display: block;
   padding: 10rem 0;
   
   .third-info-box {
     text-align: center;
+    padding: 0 2rem;
     
     h2 {
       color: $white;
-      font-size: 3rem;
+      font-size: 2.8rem;
     }
     
     i {
@@ -16,7 +17,7 @@
     }
     
     p {
-      font-size: 2rem;
+      font-size: 1.8rem;
       color: $white;
     }
   }

@@ -160,35 +160,76 @@ header {
     .banner .navbar li a {
       color: #fff; }
 
-.second-section {
+#second-section {
   padding: 5rem 1.5rem; }
-  .second-section .second-info-box {
+  #second-section .second-info-box {
     text-align: center;
     display: block;
     overflow: auto;
     text-transform: uppercase;
     font-family: "Work Sans", sans-serif;
     color: #4a4b4f; }
-    .second-section .second-info-box h2 {
+    #second-section .second-info-box h2 {
       font-weight: 700;
       font-size: 3rem; }
-    .second-section .second-info-box p {
+    #second-section .second-info-box p {
       font-size: 1.8rem; }
 
-.third-section {
+#third-section {
   background: #1ba6de;
   display: block;
   padding: 10rem 0; }
-  .third-section .third-info-box {
-    text-align: center; }
-    .third-section .third-info-box h2 {
+  #third-section .third-info-box {
+    text-align: center;
+    padding: 0 2rem; }
+    #third-section .third-info-box h2 {
       color: #fff;
-      font-size: 3rem; }
-    .third-section .third-info-box i {
+      font-size: 2.8rem; }
+    #third-section .third-info-box i {
       color: #fff; }
-    .third-section .third-info-box p {
+    #third-section .third-info-box p {
+      font-size: 1.8rem;
+      color: #fff; }
+
+#contact {
+  padding: 5rem 0;
+  background: rgba(206, 206, 206, 0.5);
+  text-align: center; }
+  #contact .contact-info {
+    text-align: center; }
+    #contact .contact-info i {
+      margin: 25px 0px 10px 0px; }
+  #contact h2.contact-nanci {
+    margin-bottom: 20px; }
+  #contact h2.section-heading {
+    font-size: 3rem;
+    margin: 15px 0 15px 0; }
+  #contact hr {
+    border: #8a2003 solid 1px; }
+  #contact hr.primary {
+    max-width: 50px;
+    margin: 25px auto 50px auto; }
+  #contact hr.secondary {
+    max-width: 60%;
+    margin: 15px auto; }
+  #contact .map {
+    text-align: center; }
+    #contact .map iframe {
+      max-width: 500px; }
+  #contact p {
+    font-size: 1.7rem; }
+    #contact p a {
+      color: #009afd; }
+      #contact p a:hover {
+        text-decoration: none;
+        color: inherit; }
+  #contact ul.coach-address {
+    list-style: none;
+    margin-top: 40px; }
+    #contact ul.coach-address li {
       font-size: 2rem;
-      color: #fff; }
+      font-weight: 500;
+      margin: 10px 0; }
 
 footer {
   background: #fff;

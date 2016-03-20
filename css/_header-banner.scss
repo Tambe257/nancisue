@@ -161,7 +161,7 @@ header {
   
   .navbar {
     margin-bottom: 6rem;
-    background: #8a2003;
+    background: $maroon;
     @include border-radius(0px);
     
     a {
