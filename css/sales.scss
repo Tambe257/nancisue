@@ -1,0 +1,59 @@
+.listing {
+  width: 350px;
+  height: 460;
+  display: block;
+  border: solid 1px #ccc;
+  overflow: hidden;
+  @include border-radius(5px);
+  
+  .listing-pic {
+    display: block;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    width: 350px;
+    img {
+      
+    }
+  }
+  
+  .listing-info {
+    padding: 0 0 20px 0;
+    ul {
+      list-style: none;
+      
+      li {
+        
+        button {
+          background: $maroon;
+          border: none;
+          padding: 10px 15px;
+          @include border-radius(2px);
+          margin-top: 10px;
+          
+          &:hover {
+            background: $maroon * 1.15; 
+          }
+          
+          a {
+            color: $white;
+            font-weight: 500;
+            -webkit-font-smoothing: antialiased;
+            
+            &:hover {
+              text-decoration: none;
+            }
+          } 
+        }
+        
+        h3 {
+          
+        }
+        
+        p {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}

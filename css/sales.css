@@ -1,0 +1,12 @@
+.listing {
+  width: 350px;
+  height: 460;
+  display: block;
+  border: #333 solid 1px;
+  overflow: hidden; }
+  .listing .listing-pic {
+    display: block;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    width: 350px; }
