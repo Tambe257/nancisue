@@ -1,0 +1,92 @@
+#current-listings {
+  padding: 2.5rem 1.5rem 5rem 1.5rem;
+  
+  
+  h2 {
+    font-size: 40px;
+    margin: 10px 0 20px 0;
+    color: $font-grey;
+  }
+  
+//  .current-listing-box {
+//    text-align: center;
+//    display: block;
+//    overflow: auto;
+//    text-transform: uppercase;
+//    font-family: $main-font;
+//    color: $font-grey;
+//    
+//    h2 {
+//      font-weight: 700;
+//      font-size: 3rem;
+//    }
+//    
+//    p {
+//      font-size: 1.8rem;  
+//    }
+//    
+//    img {
+//      
+//    }
+//  }
+  
+  .current-listing {
+  width: 350px;
+  height: 460;
+  display: block;
+  border: solid 1px #ccc;
+  overflow: hidden;
+  @include border-radius(5px); 
+  
+  .current-listing-pic {
+    display: block;
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    width: 350px;
+    img {
+      
+    }
+  }
+  
+  .current-listing-info {
+    padding: 0 0 20px 0;
+      ul {
+        list-style: none;
+
+        li {
+
+          button {
+            background: $maroon;
+            border: none;
+            padding: 10px 15px;
+            @include border-radius(2px);
+            margin-top: 10px;
+
+            &:hover {
+              background: $maroon * 1.15; 
+            }
+
+            a {
+              color: $white;
+              font-weight: 500;
+              -webkit-font-smoothing: antialiased;
+
+              &:hover {
+                text-decoration: none;
+              }
+            } 
+          }
+
+          h3 {
+
+          }
+
+          p {
+            font-size: 1.5rem;
+          }
+        }
+      }
+    }
+  }
+}

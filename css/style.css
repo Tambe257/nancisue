@@ -89,7 +89,7 @@ header {
     display: block;
     float: left;
     overflow: auto;
-    height: 445px;
+    height: 500px;
     width: 240px;
     background: #fff;
     text-align: center; }
@@ -102,15 +102,16 @@ header {
         font-weight: 700; }
       .banner .banner-content .nanci-card .card-info h2 {
         font-size: 3.0rem;
-        margin: -0.5rem; }
+        margin: -0.5rem 0 0; }
       .banner .banner-content .nanci-card .card-info h3 {
-        font-size: 2.0rem;
-        margin: 1rem; }
+        font-size: 1.8rem;
+        margin: 0.5rem; }
       .banner .banner-content .nanci-card .card-info h4 {
         font-size: 1.7rem; }
       .banner .banner-content .nanci-card .card-info ul.social-icons {
         list-style: none;
-        padding: 0; }
+        padding: 0;
+        margin-top: 1.5rem; }
         .banner .banner-content .nanci-card .card-info ul.social-icons li {
           display: inline-block;
           margin: 0 8px;
@@ -195,20 +196,51 @@ header {
   .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus:hover, .navbar-default .navbar-brand:hover:hover {
     color: #b3b3b3; }
 
-#second-section {
-  padding: 5rem 1.5rem; }
-  #second-section .second-info-box {
-    text-align: center;
-    display: block;
-    overflow: auto;
-    text-transform: uppercase;
-    font-family: "Work Sans", sans-serif;
+#current-listings {
+  padding: 2.5rem 1.5rem 5rem 1.5rem; }
+  #current-listings h2 {
+    font-size: 40px;
+    margin: 10px 0 20px 0;
     color: #4a4b4f; }
-    #second-section .second-info-box h2 {
-      font-weight: 700;
-      font-size: 3rem; }
-    #second-section .second-info-box p {
-      font-size: 1.8rem; }
+  #current-listings .current-listing {
+    width: 350px;
+    height: 460;
+    display: block;
+    border: solid 1px #ccc;
+    overflow: hidden;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px; }
+    #current-listings .current-listing .current-listing-pic {
+      display: block;
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+      width: 350px; }
+    #current-listings .current-listing .current-listing-info {
+      padding: 0 0 20px 0; }
+      #current-listings .current-listing .current-listing-info ul {
+        list-style: none; }
+        #current-listings .current-listing .current-listing-info ul li button {
+          background: #8a2003;
+          border: none;
+          padding: 10px 15px;
+          -webkit-border-radius: 2px;
+          -moz-border-radius: 2px;
+          -ms-border-radius: 2px;
+          border-radius: 2px;
+          margin-top: 10px; }
+          #current-listings .current-listing .current-listing-info ul li button:hover {
+            background: #9f2503; }
+          #current-listings .current-listing .current-listing-info ul li button a {
+            color: #fff;
+            font-weight: 500;
+            -webkit-font-smoothing: antialiased; }
+            #current-listings .current-listing .current-listing-info ul li button a:hover {
+              text-decoration: none; }
+        #current-listings .current-listing .current-listing-info ul li p {
+          font-size: 1.5rem; }
 
 #third-section {
   background: #1ba6de;
@@ -278,7 +310,7 @@ footer {
       text-align: right; } }
 
 .listing {
-  width: 350px;
+  max-width: 350px;
   height: 460;
   display: block;
   border: solid 1px #ccc;
@@ -286,7 +318,8 @@ footer {
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
-  border-radius: 5px; }
+  border-radius: 5px;
+  margin: 10px auto; }
   .listing .listing-pic {
     display: block;
     position: relative;

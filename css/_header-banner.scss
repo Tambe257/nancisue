@@ -68,7 +68,7 @@ header {
       display: block;
       float: left;
       overflow: auto;
-      height: 445px;
+      height: 500px;
       width: 240px;
       background: $white;
       text-align: center;
@@ -85,12 +85,12 @@ header {
         
         h2 {
           font-size: 3.0rem;
-          margin: -0.5rem;
+          margin: -0.5rem 0 0;
         }
         
         h3 {
-          font-size: 2.0rem;
-          margin: 1rem;
+          font-size: 1.8rem;
+          margin: 0.5rem;
         }
         
         h4 {
@@ -100,6 +100,7 @@ header {
         ul.social-icons {
           list-style: none;
           padding: 0;
+          margin-top: 1.5rem;
           
           
           li {
