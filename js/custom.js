@@ -6,13 +6,6 @@ $('#nav').affix({
 
 /* Fade in navbar-brand on scroll */
 
-
-//$(function () {
-//  if($('#nav').hasClass('affix')) {
-//    $('navbar-brand').fadeIn();
-//  }
-//});
-
 $(document).on('scroll', function() {
   $('#nav').each(function(){
     if($(this).hasClass('affix')) {
@@ -21,4 +14,16 @@ $(document).on('scroll', function() {
       $('.navbar-brand').fadeOut(500);
     }
   });
+});
+
+
+// jQuery for page scrolling feature - requires jQuery Easing plugin
+$(function() {
+    $('a.page-scroll').bind('click', function(event) {
+        var $anchor = $(this);
+        $('html, body').stop().animate({
+            scrollTop: $($anchor.attr('href')).offset().top
+        }, 1500, 'easeInOutExpo');
+        event.preventDefault();
+    });
 });

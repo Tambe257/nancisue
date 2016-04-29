@@ -16,6 +16,17 @@
 
   a.navbar-brand {
     display: none;
+    font-family: $main-font;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+  }
+  
+  a.navbar-brand:hover {
+    color: $white * 0.7;
+    font-size: 24px;
   }
 
   li {
@@ -42,6 +53,10 @@
   &:hover {
     color: $white * 0.7;
   }
+}
+
+.nav-wrapper {
+  min-height: 50px;  
 }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {

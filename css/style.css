@@ -183,7 +183,16 @@ header {
   .navbar a {
     color: #fff; }
   .navbar a.navbar-brand {
-    display: none; }
+    display: none;
+    font-family: "Work Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out; }
+  .navbar a.navbar-brand:hover {
+    color: #b3b3b3;
+    font-size: 24px; }
   .navbar li a {
     color: #fff;
     font-size: 1.6rem; }
@@ -198,6 +207,9 @@ header {
   font-size: 1.6rem; }
   .navbar-default .navbar-nav > li > a:hover {
     color: #b3b3b3; }
+
+.nav-wrapper {
+  min-height: 50px; }
 
 .navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
   color: #fff;
