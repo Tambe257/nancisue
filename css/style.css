@@ -92,7 +92,8 @@ header {
     height: 500px;
     width: 240px;
     background: #fff;
-    text-align: center; }
+    text-align: center;
+    margin-top: 50px; }
     .banner .banner-content .nanci-card .card-info {
       height: auto;
       color: #4a4b4f; }
@@ -166,15 +167,23 @@ header {
   .banner .navbar-default, .banner .navbar-collapse {
     border: none; }
 
+#nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%; }
+
 .navbar {
-  margin-bottom: 6rem;
+  margin: 0;
   background: #8a2003;
   -webkit-border-radius: 0px;
   -moz-border-radius: 0px;
   -ms-border-radius: 0px;
-  border-radius: 0px; }
+  border-radius: 0px;
+  z-index: 5; }
   .navbar a {
     color: #fff; }
+  .navbar a.navbar-brand {
+    display: none; }
   .navbar li a {
     color: #fff;
     font-size: 1.6rem; }
@@ -349,3 +358,6 @@ footer {
             text-decoration: none; }
       .listing .listing-info ul li p {
         font-size: 1.5rem; }
+
+.fadeIn-brand {
+  opacity: 1; }

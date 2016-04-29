@@ -1,14 +1,21 @@
+#nav.affix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 .navbar {
-  margin-bottom: 6rem;
+  margin: 0;
   background: $maroon;
   @include border-radius(0px);
+  z-index: 5;
 
   a {
     color: $white;
   }
 
   a.navbar-brand {
-
+    display: none;
   }
 
   li {

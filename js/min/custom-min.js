@@ -1,0 +1,1 @@
+$("#nav").affix({offset:{top:100}}),$(document).on("scroll",function(){$("#nav").each(function(){$(this).hasClass("affix")?$(".navbar-brand").fadeIn(500):$(".navbar-brand").fadeOut(500)})});
