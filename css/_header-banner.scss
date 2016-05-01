@@ -1,6 +1,5 @@
 header {
   display: block;
-  overflow: auto;
   padding: 0.5rem 2rem;
   height: 75px;
   
@@ -67,7 +66,7 @@ header {
     .nanci-card {
       display: block;
       float: left;
-      overflow: auto;
+      overflow: hidden;
       height: 500px;
       width: 240px;
       background: $white;

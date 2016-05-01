@@ -9,7 +9,7 @@
   background: $maroon;
   @include border-radius(0px);
   z-index: 5;
-
+  
   a {
     color: $white;
   }
@@ -30,6 +30,9 @@
   }
 
   li {
+    float: none;
+    display: inline-block;
+    
     a, a.page-scroll {
       color: $white;
       font-size: 1.6rem;
@@ -70,4 +73,9 @@
   &:hover {
     color: $white * 0.7;
   }
+}
+
+.navbar-nav {
+  float: none;
+  text-align: center;
 }

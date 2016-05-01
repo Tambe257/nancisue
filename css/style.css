@@ -54,7 +54,6 @@ body {
 
 header {
   display: block;
-  overflow: auto;
   padding: 0.5rem 2rem;
   height: 75px; }
   @media (min-width: 768px) {
@@ -103,7 +102,7 @@ header {
   .banner .banner-content .nanci-card {
     display: block;
     float: left;
-    overflow: auto;
+    overflow: hidden;
     height: 500px;
     width: 240px;
     background: #fff;
@@ -208,13 +207,16 @@ header {
   .navbar a.navbar-brand:hover {
     color: #b3b3b3;
     font-size: 24px; }
-  .navbar li a, .navbar li a.page-scroll {
-    color: #fff;
-    font-size: 1.6rem; }
-    .navbar li a:visited, .navbar li a:focus, .navbar li a.page-scroll:visited, .navbar li a.page-scroll:focus {
-      color: #fff; }
-    .navbar li a:hover, .navbar li a.page-scroll:hover {
-      color: #b3b3b3; }
+  .navbar li {
+    float: none;
+    display: inline-block; }
+    .navbar li a, .navbar li a.page-scroll {
+      color: #fff;
+      font-size: 1.6rem; }
+      .navbar li a:visited, .navbar li a:focus, .navbar li a.page-scroll:visited, .navbar li a.page-scroll:focus {
+        color: #fff; }
+      .navbar li a:hover, .navbar li a.page-scroll:hover {
+        color: #b3b3b3; }
 
 .navbar-default, .navbar-collapse {
   border: none; }
@@ -233,6 +235,10 @@ header {
   font-size: 1.6rem; }
   .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus:hover, .navbar-default .navbar-brand:hover:hover {
     color: #b3b3b3; }
+
+.navbar-nav {
+  float: none;
+  text-align: center; }
 
 #current-listings {
   padding: 2.5rem 1.5rem 5rem 1.5rem; }
@@ -281,7 +287,7 @@ header {
           font-size: 1.5rem; }
 
 #third-section {
-  background: #1ba6de;
+  background: #0068b3;
   display: block;
   padding: 10rem 0; }
   #third-section .third-info-box {
@@ -345,7 +351,7 @@ header {
   #contact p {
     font-size: 1.7rem; }
     #contact p a {
-      color: #009afd; }
+      color: #0068b3; }
       #contact p a:hover {
         text-decoration: none;
         color: inherit; }
@@ -361,6 +367,8 @@ footer {
   background: #fff;
   padding: 3rem 0;
   text-align: center; }
+  footer a {
+    color: #0068b3; }
   @media (min-width: 768px) {
     footer {
       text-align: inherit; } }
@@ -423,12 +431,39 @@ footer {
       border-radius: 180px; }
   #about .about-info {
     clear: both; }
+    #about .about-info p {
+      font-size: 16px;
+      margin: 10px 0 30px 0; }
+    #about .about-info .read-more {
+      margin-right: 20px; }
 
 #home-vendors {
   padding: 20px 0;
   text-align: center;
   background: #8a2003;
   color: #fff; }
+
+#coach {
+  position: relative;
+  clear: both; }
+  #coach header {
+    text-align: center;
+    color: #fff;
+    position: relative;
+    height: 100%;
+    background: #0068b3; }
+    #coach header img {
+      display: inline-block;
+      padding: 30px 0; }
+    #coach header p {
+      font-size: 16px;
+      margin: 10px 0 30px 0; }
+  #coach ul.coach-images {
+    list-style: none;
+    text-align: center; }
+    #coach ul.coach-images li {
+      display: inline-block;
+      margin: 20px 10px; }
 
 .fadeIn-brand {
   opacity: 1; }

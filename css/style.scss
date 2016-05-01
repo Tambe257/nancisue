@@ -3,6 +3,7 @@ $grey: #333;
 $font-grey: #4a4b4f;
 $light-grey: #e4eaf6;
 $maroon: #8a2003;
+$coach-blue: #0068b3;
 
 @import "mixins";
 @include font-face(Montserrat, "/fonts/Montserrat");
@@ -156,6 +157,7 @@ body {
 @import "sales";
 @import "about-home";
 @import "vendors";
+@import "coach";
 
 
 .fadeIn-brand {

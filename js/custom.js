@@ -10,8 +10,11 @@ $(document).on('scroll', function() {
   $('#nav').each(function(){
     if($(this).hasClass('affix')) {
       $('.navbar-brand').fadeIn(500);
+      $('#right-nav').addClass('navbar-right');
     } else {
       $('.navbar-brand').fadeOut(500);
+      $('#right-nav').removeClass('navbar-right');
+      $('navbar-nav').attr('float: none', 'text-align: center');
     }
   });
 });
