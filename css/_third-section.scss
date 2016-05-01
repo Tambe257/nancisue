@@ -21,4 +21,38 @@
       color: $white;
     }
   }
+  
+  #box1 {
+    position: relative;
+    right: 500px;
+    opacity: 0;
+  }
+  
+  #box2 {
+    position: relative;
+    right: 500px;
+    opacity: 0;
+  }
+  
+  #box3 {
+    position: relative;
+    right: 500px;
+    opacity: 0;
+  }
+  
+  #box1.animate3 {
+    right: 0;
+    opacity: 1;
+  }
+  
+  #box2.animate2 {
+    right: 0;
+    opacity: 1;
+  }
+  
+  #box3.animate1 {
+    right: 0;
+    opacity: 1;
+  }
+
 }

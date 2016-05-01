@@ -8,6 +8,21 @@ body {
   -webkit-font-smoothing: antialiased;
   font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif; }
 
+.animate1 {
+  transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out; }
+
+.animate2 {
+  transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out; }
+
+.animate3 {
+  transition: 1.5s ease-in-out;
+  -moz-transition: 1.5s ease-in-out;
+  -webkit-transition: 1.5s ease-in-out; }
+
 .cf:before,
 .cf:after {
   content: " ";
@@ -193,10 +208,12 @@ header {
   .navbar a.navbar-brand:hover {
     color: #b3b3b3;
     font-size: 24px; }
-  .navbar li a {
+  .navbar li a, .navbar li a.page-scroll {
     color: #fff;
     font-size: 1.6rem; }
-    .navbar li a:hover {
+    .navbar li a:visited, .navbar li a:focus, .navbar li a.page-scroll:visited, .navbar li a.page-scroll:focus {
+      color: #fff; }
+    .navbar li a:hover, .navbar li a.page-scroll:hover {
       color: #b3b3b3; }
 
 .navbar-default, .navbar-collapse {
@@ -221,7 +238,7 @@ header {
   padding: 2.5rem 1.5rem 5rem 1.5rem; }
   #current-listings h2 {
     font-size: 40px;
-    margin: 10px 0 20px 0;
+    margin: 30px 0 30px 0;
     color: #4a4b4f; }
   #current-listings .current-listing {
     width: 350px;
@@ -278,6 +295,27 @@ header {
     #third-section .third-info-box p {
       font-size: 1.8rem;
       color: #fff; }
+  #third-section #box1 {
+    position: relative;
+    right: 500px;
+    opacity: 0; }
+  #third-section #box2 {
+    position: relative;
+    right: 500px;
+    opacity: 0; }
+  #third-section #box3 {
+    position: relative;
+    right: 500px;
+    opacity: 0; }
+  #third-section #box1.animate3 {
+    right: 0;
+    opacity: 1; }
+  #third-section #box2.animate2 {
+    right: 0;
+    opacity: 1; }
+  #third-section #box3.animate1 {
+    right: 0;
+    opacity: 1; }
 
 #contact {
   padding: 5rem 0;
@@ -370,6 +408,27 @@ footer {
             text-decoration: none; }
       .listing .listing-info ul li p {
         font-size: 1.5rem; }
+
+#about {
+  padding: 20px 0;
+  text-align: center; }
+  #about #about-avatar {
+    padding: 20px 0; }
+    #about #about-avatar img {
+      height: 200px;
+      width: 200px;
+      -webkit-border-radius: 180px;
+      -moz-border-radius: 180px;
+      -ms-border-radius: 180px;
+      border-radius: 180px; }
+  #about .about-info {
+    clear: both; }
+
+#home-vendors {
+  padding: 20px 0;
+  text-align: center;
+  background: #8a2003;
+  color: #fff; }
 
 .fadeIn-brand {
   opacity: 1; }

@@ -27,3 +27,36 @@ $(function() {
         event.preventDefault();
     });
 });
+
+/* Animate third section on scroll */
+$(function() {
+    $(window).scroll( function(){
+        $('#third-section').each( function(){
+            
+            var bottom_of_object = $(this).position().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            
+            /* Adjust the "50" to either have a delay or that the content starts fading a bit before you reach it  */
+            bottom_of_window = bottom_of_window + 10;  
+          
+            if( bottom_of_window > bottom_of_object ){
+                
+                $('div#box1').addClass('animate3');
+                $('div#box2').addClass('animate2');
+                $('div#box3').addClass('animate1');
+            }
+        }); 
+    
+    });
+});
+
+/* box slider */
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    minSlides: 1,
+    maxSlides: 3,
+    slideWidth: 387,
+    slideMargin: 0
+  });
+});

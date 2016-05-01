@@ -91,6 +91,24 @@ body {
   &:focus   { color: $focus;   }
 }
 
+.animate1 {
+  transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+}
+
+.animate2 {
+  transition: 1s ease-in-out;
+  -moz-transition: 1s ease-in-out;
+  -webkit-transition: 1s ease-in-out;
+}
+
+.animate3 {
+  transition: 1.5s ease-in-out;
+  -moz-transition: 1.5s ease-in-out;
+  -webkit-transition: 1.5s ease-in-out;
+}
+
 .cf:before,
 .cf:after {
   content: " ";
@@ -136,6 +154,8 @@ body {
 @import "contact";
 @import "footer";
 @import "sales";
+@import "about-home";
+@import "vendors";
 
 
 .fadeIn-brand {

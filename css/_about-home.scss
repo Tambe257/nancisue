@@ -1,0 +1,25 @@
+#about {
+  padding: 20px 0;
+  text-align: center;
+  
+  h2 {
+    
+  }
+  
+  #about-avatar {
+    padding: 20px 0;
+    
+    img {
+      height: 200px;
+      width: 200px;
+      @include border-radius(180px);
+    }
+  }
+  
+  .about-info {
+    clear: both;
+    .read-more {
+      
+    }
+  }
+}
