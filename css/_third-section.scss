@@ -1,7 +1,7 @@
 #third-section {
   background: $coach-blue;
   display: block;
-  padding: 10rem 0;
+  padding: 8rem 0;
   
   .third-info-box {
     text-align: center;
@@ -53,6 +53,28 @@
   #box3.animate1 {
     right: 0;
     opacity: 1;
+  }
+  
+  button {
+    background: $maroon;
+    border: none;
+    padding: 10px 15px;
+    @include border-radius(5px);
+    margin-top: 10px;
+
+    &:hover {
+      background: $maroon * 1.15; 
+    }
+
+    a {
+      color: $white;
+      font-weight: 500;
+      -webkit-font-smoothing: antialiased;
+
+      &:hover {
+        text-decoration: none;
+      }
+    } 
   }
 
 }

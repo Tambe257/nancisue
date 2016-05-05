@@ -181,7 +181,7 @@ header {
   .banner .navbar-default, .banner .navbar-collapse {
     border: none; }
 
-#nav.affix {
+#nav.affix, #nav-nanci.affix {
   position: fixed;
   top: 0;
   width: 100%; }
@@ -234,11 +234,18 @@ header {
   color: #fff;
   font-size: 1.6rem; }
   .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus:hover, .navbar-default .navbar-brand:hover:hover {
-    color: #b3b3b3; }
+    color: #e6e6e6; }
 
 .navbar-nav {
   float: none;
   text-align: center; }
+
+#about-body #nav-nanci a.navbar-brand {
+  display: block;
+  font-family: "Work Sans", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  opacity: 1; }
 
 #current-listings {
   padding: 2.5rem 1.5rem 5rem 1.5rem; }
@@ -289,7 +296,7 @@ header {
 #third-section {
   background: #0068b3;
   display: block;
-  padding: 10rem 0; }
+  padding: 8rem 0; }
   #third-section .third-info-box {
     text-align: center;
     padding: 0 2rem; }
@@ -322,6 +329,23 @@ header {
   #third-section #box3.animate1 {
     right: 0;
     opacity: 1; }
+  #third-section button {
+    background: #8a2003;
+    border: none;
+    padding: 10px 15px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    margin-top: 10px; }
+    #third-section button:hover {
+      background: #9f2503; }
+    #third-section button a {
+      color: #fff;
+      font-weight: 500;
+      -webkit-font-smoothing: antialiased; }
+      #third-section button a:hover {
+        text-decoration: none; }
 
 #contact {
   padding: 5rem 0;
@@ -418,7 +442,7 @@ footer {
         font-size: 1.5rem; }
 
 #about {
-  padding: 20px 0;
+  padding: 40px 0;
   text-align: center; }
   #about #about-avatar {
     padding: 20px 0; }
@@ -464,6 +488,45 @@ footer {
     #coach ul.coach-images li {
       display: inline-block;
       margin: 20px 10px; }
+
+.nanci-avatar {
+  clear: both;
+  text-align: center; }
+  @media (min-width: 992px) {
+    .nanci-avatar {
+      text-align: left; } }
+  .nanci-avatar img {
+    -webkit-border-radius: 180px;
+    -moz-border-radius: 180px;
+    -ms-border-radius: 180px;
+    border-radius: 180px;
+    height: 200px;
+    border: 4px solid #fff;
+    margin: -100px 0 0 0;
+    position: relative; }
+    @media (min-width: 992px) {
+      .nanci-avatar img {
+        margin: -100px 0 0 30px; } }
+
+.nanci-banner {
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/sample-image.jpg") center no-repeat;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  font-family: "Work Sans", sans-serif;
+  clear: both; }
+  .nanci-banner h1 {
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 60px 0 30px 0; }
+  .nanci-banner h2 {
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0 0 120px 0; }
+    @media (min-width: 992px) {
+      .nanci-banner h2 {
+        margin: 0 0 80px 0; } }
 
 .fadeIn-brand {
   opacity: 1; }

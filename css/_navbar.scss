@@ -1,4 +1,4 @@
-#nav.affix {
+#nav.affix, #nav-nanci.affix {
   position: fixed;
   top: 0;
   width: 100%;
@@ -71,11 +71,23 @@
   font-size: 1.6rem;
 
   &:hover {
-    color: $white * 0.7;
+    color: $white * 0.9;
   }
 }
 
 .navbar-nav {
   float: none;
   text-align: center;
+}
+
+#about-body {
+  #nav-nanci {
+    a.navbar-brand {
+      display: block;
+      font-family: $main-font;
+      font-size: 24px;
+      font-weight: 700;
+      opacity: 1;
+    }
+  }
 }
