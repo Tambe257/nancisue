@@ -467,6 +467,44 @@ footer {
   background: #8a2003;
   color: #fff; }
 
+.vendor-banner {
+  text-align: center;
+  padding: 40px 0; }
+  .vendor-banner h1 {
+    font-size: 50px; }
+  .vendor-banner h3 {
+    font-size: 30px; }
+
+.vendors {
+  box-sizing: border-box; }
+  .vendors .vendor-card {
+    margin: 15px 20px;
+    padding: 0;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    border-radius: 3px;
+    max-width: 350px;
+    border: 1px solid rgba(0, 0, 0, 0.4); }
+    .vendors .vendor-card .vendor-info {
+      padding: 0 20px; }
+      .vendors .vendor-card .vendor-info h3 {
+        line-height: 1.2;
+        color: #0f1926;
+        font-size: 2.5rem;
+        font-weight: 700; }
+      .vendors .vendor-card .vendor-info p {
+        line-height: 1.2;
+        color: #0f1926;
+        font-size: 1.4rem;
+        opacity: .6;
+        padding: .4em 0;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap; }
+    .vendors .vendor-card img {
+      width: 100%; }
+
 #coach {
   position: relative;
   clear: both; }
