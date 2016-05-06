@@ -1179,6 +1179,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/seamless-metal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.50201e+06,
+		"inputAbbreviatedPath": "\/img\/seamless-metal.jpg",
+		"outputAbbreviatedPath": "\/img\/seamless-metal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/stock-photo copy.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1208,6 +1219,17 @@
 		"initialSize": 186317,
 		"inputAbbreviatedPath": "\/img\/stock-photo.jpg",
 		"outputAbbreviatedPath": "\/img\/stock-photo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/wells-fargo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22447,
+		"inputAbbreviatedPath": "\/img\/vendors\/wells-fargo.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/wells-fargo.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1361,12 +1383,34 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/js\/min\/vendor-content-min.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/min\/vendor-content-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/min\/vendor-content-min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/modernizr.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/modernizr.js",
 		"outputAbbreviatedPath": "\/js\/min\/modernizr-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/js\/vendor-content.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/vendor-content.js",
+		"outputAbbreviatedPath": "\/js\/min\/vendor-content-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,

@@ -12,15 +12,16 @@ $(document).on('scroll', function() {
       $('.navbar-brand').fadeIn(500);
       $('#right-nav').addClass('navbar-right');
     } else {
-      $('.navbar-brand').fadeOut(500);
+      $('.navbar-brand').hide();
       $('#right-nav').removeClass('navbar-right');
-      $('navbar-nav').attr('float: none', 'text-align: center');
+      $('navbar-nav').attr('float: none');
     }
   });
 });
 
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
+
 $(function() {
   $('a.page-scroll').bind('click', function(event) {
     var $anchor = $(this);
@@ -61,4 +62,15 @@ $(document).ready(function(){
     slideWidth: 387,
     slideMargin: 0
   });
+});
+
+
+/* Show and remove the vendor content  */
+
+$('#vendor-1').click(function(){
+  $('#vendor-1-content').addClass('is-visible');
+});
+
+$('#close').click(function(){
+  $('.vendor-content').addClass('close-content').removeClass('is-visible');
 });

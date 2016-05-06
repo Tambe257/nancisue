@@ -22,19 +22,10 @@
   
 </head>
 <body>
-  <header>
-    <div class="container">
-      <div class="header-info">
-        <h1><span class="heavy">Nanci Sue</span> Rosenthal</h1>
-        <h2>Licensed Real Estate Salesperson</h2>
-        <img src="img/coach-logo.png" alt="Logo">
-      </div>
-    </div>
-  </header>
-  
+ 
   <!--     nav      -->
   <div class="nav-wrapper">
-     <nav class="navbar navbar-default" id="nav">
+     <nav class="navbar navbar-default affix" id="nav-nanci">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -66,10 +57,12 @@
     <h3>Subtitle Line Will Go Here...</h3>
   </div>
   
+  
+<!--  Vendor Cards -->
   <div class="container vendors">
     <div class="row">
       <div class="col-xs-12 col-sm-6 col-md-4 vendor-card" id="vendor-1">
-        <img src="img/grey-box.jpg" alt="">
+        <img src="img/vendors/wells-fargo.jpg" alt="Wells Fargo">
         <div class="vendor-info">
           <h3>Vendor Name</h3>
           <p>Short Vendor Description</p>
@@ -91,9 +84,7 @@
           <p>Short Vendor Description</p>
         </div>
       </div>
-    </div>
-    
-    <div class="row">
+
       <div class="col-xs-12 col-sm-6 col-md-4 vendor-card" id="vendor-4">
         <img src="img/grey-box.jpg" alt="">
         <div class="vendor-info">
@@ -118,7 +109,24 @@
         </div>
       </div>
     </div>
-  </div>
+  </div> 
+<!--  End Vendor Cards   -->
+ 
+<!-- Vendor Content -->
+  
+  <div class="vendor-content" id="vendor-1-content">
+    <div>
+      <h2>Vendor title here</h2>
+      <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ullam.</em>
+      <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus. 
+      </p>
+    </div>
+    <a href="#0" class="close-content cd-img-replace" id="close"></a>
+  </div> 
+	
+	<!-- Vendor Content -->
+  
   
   <footer>
     <div class="container">
@@ -139,6 +147,7 @@
   <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="jquery.bxslider/jquery.bxslider.min.js"></script>
+  <script src="js/vendor-content.js"></script>
   <script src="js/custom.js"></script>  
 </body>
 </html>

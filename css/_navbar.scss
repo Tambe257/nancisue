@@ -80,14 +80,13 @@
   text-align: center;
 }
 
-#about-body {
-  #nav-nanci {
-    a.navbar-brand {
-      display: block;
-      font-family: $main-font;
-      font-size: 24px;
-      font-weight: 700;
-      opacity: 1;
-    }
+#nav-nanci {
+  a.navbar-brand {
+    display: block;
+    font-family: $main-font;
+    font-size: 24px;
+    font-weight: 700;
+    opacity: 1;
   }
 }
+
