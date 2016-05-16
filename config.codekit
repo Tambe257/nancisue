@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19115",
+"creatorBuild": "19127",
 "files": {
 	"\/bootstrap-3.3.6-dist\/css\/bootstrap-theme.css": {
 		"fileType": 16,
@@ -744,6 +744,15 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/css\/bricklayer.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/css\/bricklayer.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/css\/sales.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -1223,6 +1232,182 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/TempSite.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 212124,
+		"inputAbbreviatedPath": "\/img\/TempSite.jpg",
+		"outputAbbreviatedPath": "\/img\/TempSite.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/aladdin-plumbing-corp.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 65525,
+		"inputAbbreviatedPath": "\/img\/vendors\/aladdin-plumbing-corp.png",
+		"outputAbbreviatedPath": "\/img\/vendors\/aladdin-plumbing-corp.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/always-guarding.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 37941,
+		"inputAbbreviatedPath": "\/img\/vendors\/always-guarding.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/always-guarding.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/CoachTitleAgency_small.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5687,
+		"inputAbbreviatedPath": "\/img\/vendors\/CoachTitleAgency_small.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/CoachTitleAgency_small.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/comerford.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 84870,
+		"inputAbbreviatedPath": "\/img\/vendors\/comerford.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/comerford.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/dalsimer-florest.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 32841,
+		"inputAbbreviatedPath": "\/img\/vendors\/dalsimer-florest.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/dalsimer-florest.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/dicosimo.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14196,
+		"inputAbbreviatedPath": "\/img\/vendors\/dicosimo.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/dicosimo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/dicosimo.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17433,
+		"inputAbbreviatedPath": "\/img\/vendors\/dicosimo.png",
+		"outputAbbreviatedPath": "\/img\/vendors\/dicosimo.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/DrLondon.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 26093,
+		"inputAbbreviatedPath": "\/img\/vendors\/DrLondon.png",
+		"outputAbbreviatedPath": "\/img\/vendors\/DrLondon.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/eeandl.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 3315,
+		"inputAbbreviatedPath": "\/img\/vendors\/eeandl.png",
+		"outputAbbreviatedPath": "\/img\/vendors\/eeandl.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/fairfield-mortgage.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 94016,
+		"inputAbbreviatedPath": "\/img\/vendors\/fairfield-mortgage.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/fairfield-mortgage.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/HartfordFunding.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5032,
+		"inputAbbreviatedPath": "\/img\/vendors\/HartfordFunding.png",
+		"outputAbbreviatedPath": "\/img\/vendors\/HartfordFunding.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/housemaster.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78352,
+		"inputAbbreviatedPath": "\/img\/vendors\/housemaster.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/housemaster.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/mitchellmedical.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34337,
+		"inputAbbreviatedPath": "\/img\/vendors\/mitchellmedical.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/mitchellmedical.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/turnabout.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34278,
+		"inputAbbreviatedPath": "\/img\/vendors\/turnabout.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/turnabout.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/unreal-hewlett.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 78088,
+		"inputAbbreviatedPath": "\/img\/vendors\/unreal-hewlett.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/unreal-hewlett.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/vendors\/wells-fargo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1230,6 +1415,17 @@
 		"initialSize": 22447,
 		"inputAbbreviatedPath": "\/img\/vendors\/wells-fargo.jpg",
 		"outputAbbreviatedPath": "\/img\/vendors\/wells-fargo.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/win-inspection.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 9315,
+		"inputAbbreviatedPath": "\/img\/vendors\/win-inspection.png",
+		"outputAbbreviatedPath": "\/img\/vendors\/win-inspection.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1339,6 +1535,17 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
+	"\/js\/bricklayer.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/js\/bricklayer.min.js",
+		"outputAbbreviatedPath": "\/js\/min\/bricklayer.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/js\/custom.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -1405,17 +1612,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/js\/vendor-content.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/js\/vendor-content.js",
-		"outputAbbreviatedPath": "\/js\/min\/vendor-content-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/nanci-sue.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1451,6 +1647,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/sales.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/vendor-old.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/vendor-old.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

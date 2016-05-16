@@ -4,6 +4,17 @@ $('#nav').affix({
   }
 });
 
+
+//$(function() {
+//  if ($(window).width > 375) {
+//    $('#nav').affix({
+//      offset: {
+//        top: 100
+//      }
+//    });
+//  }
+//});
+
 /* Fade in navbar-brand on scroll */
 
 $(document).on('scroll', function() {
@@ -67,10 +78,21 @@ $(document).ready(function(){
 
 /* Show and remove the vendor content  */
 
-$('#vendor-1').click(function(){
-  $('#vendor-1-content').addClass('is-visible');
+
+$(function () {
+  $('[id^=vendor-]').click(function () {
+    var num = this.id.split('vendor-')[1];
+    var vendorId = '#vendor-' + num + '-content';
+    
+    $(vendorId).addClass('is-visible');
+
+  });
 });
 
-$('#close').click(function(){
-  $('.vendor-content').addClass('close-content').removeClass('is-visible');
+$(function() {
+   $('.vendor-content').click(function() {
+
+     $(this).removeClass('is-visible');
+
+   });
 });

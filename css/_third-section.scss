@@ -1,11 +1,19 @@
 #third-section {
   background: $coach-blue;
   display: block;
-  padding: 8rem 0;
+  padding: 4rem 0;
+  
+  @include breakpoint(md) {
+    padding: 8rem 0;
+  }
   
   .third-info-box {
     text-align: center;
-    padding: 0 2rem;
+    padding: 20px 2rem;
+    
+    @include breakpoint(md) {
+      padding: 0 2rem;
+    }
     
     h2 {
       color: $white;

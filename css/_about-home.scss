@@ -28,4 +28,26 @@
       margin-right: 20px;
     }
   }
+  
+  button {
+    background: $maroon;
+    border: none;
+    padding: 10px 15px;
+    @include border-radius(5px);
+    margin-top: 10px;
+
+    &:hover {
+      background: $maroon * 1.15; 
+    }
+
+    a {
+      color: $white;
+      font-weight: 500;
+      -webkit-font-smoothing: antialiased;
+
+      &:hover {
+        text-decoration: none;
+      }
+    } 
+  }
 }

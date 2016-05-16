@@ -1,36 +1,52 @@
 #current-listings {
-  padding: 2.5rem 1.5rem 5rem 1.5rem;
+  padding: 2rem 1.5rem 3rem 1.5rem;
   
+  @include breakpoint(sm) {
+    text-align: center;
+    padding: 2.5rem 1.5rem 5rem 1.5rem;
+  }
   
   h2 {
     font-size: 40px;
     margin: 30px 0 30px 0;
     color: $font-grey;
+    text-align: center;
   }
   
   .current-listing {
-  width: 350px;
-  height: 460;
-  display: block;
-  border: solid 1px #ccc;
-  overflow: hidden;
-  @include border-radius(5px); 
-  
-  .current-listing-pic {
     display: block;
-    position: relative;
-    text-align: center;
+    border: solid 1px #ccc;
     overflow: hidden;
-    width: 350px;
-    img {
-      
+    height: 440px;
+    @include border-radius(5px); 
+
+
+    @include breakpoint (sm) {
+      width: 350px;
     }
+    
+    .current-listing-pic {
+      display: block;
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+      width: 100%;
+      img {
+
+      }
+    }
+  
+  .current-listing-box {
+    padding: 0;
   }
   
   .current-listing-info {
     padding: 0 0 20px 0;
+    text-align: center;
+    
       ul {
         list-style: none;
+        padding: 0px;
 
         li {
 
@@ -65,6 +81,14 @@
           }
         }
       }
+    }
+  }
+  
+  .bx-wrapper .bx-viewport {
+    left: 0;
+    
+    @include breakpoint(sm) {
+      left: -5px;
     }
   }
 }

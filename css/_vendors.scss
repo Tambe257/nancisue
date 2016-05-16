@@ -29,6 +29,13 @@
     @include box-shadow( 0px, 1px, 1px, rgba( 0, 0, 0, 0.4));
     max-width: 350px;
     border: 1px solid #ccc;
+    transition: all .2s ease-in-out;
+    
+    &:hover {
+     opacity: 0.9;
+     cursor: pointer;
+     transform: scale(1.05);  
+    }
     
     @include breakpoint(sm) {
         
@@ -36,6 +43,8 @@
     
     .vendor-info {
       padding: 0 20px;
+      text-align: center;
+      border-top: 1px solid #ccc;
       
       h3 {
         line-height: 1.2;
@@ -69,6 +78,7 @@
   left: 0;
   width: 100%;
   height: 100%;
+  padding: 20px 0 0 0;
   visibility: hidden;
   background-color: #ebebeb;
   /* Force Hardware Acceleration */
@@ -123,17 +133,25 @@
 .vendor-content h2 {
   font-size: 2.4rem;
   font-weight: bold;
+  text-align: center;
 }
+
+.vendor-content h3 {
+  text-align: center;
+}
+
 .vendor-content em {
   display: block;
   font-size: 1.8rem;
   font-style: italic;
-  margin: 1em auto;
+  margin: 0.5em auto;
+  text-align: center;
 }
 .vendor-content p {
   margin-bottom: 1em;
   font-size: 1.4rem;
   color: #6f757c;
+  text-align: center;
 }
 .vendor-content em, .vendor-content p {
   line-height: 1.6;
@@ -148,9 +166,24 @@
   background: url(../img/cd-close-dark.svg) no-repeat center center;
 }
 
+.vendor-content img {
+  display: block;
+  margin: 0 auto;
+  max-width: 416px;
+  width: 100%;
+}
+
+ul.vendor-list {
+  max-width: 400px;
+  
+  li {
+    font-size: 20px;
+  }
+}
+
 @media only screen and (min-width: 900px) {
   .vendor-content h2 {
-    font-size: 6rem;
+    font-size: 4rem;
   }
   .vendor-content em {
     font-size: 2.4rem;
@@ -205,5 +238,21 @@ Keyframes
     -o-transform: translateY(0);
     transform: translateY(0);
 //    opacity: 1;
+  }
+}
+
+// bricklayer
+
+@media screen and (min-width: 1200px) {
+  .bricklayer-column-sizer {
+    /* divide by 3. */
+    width: 33.3%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .bricklayer-column-sizer {
+    /* divide by 2. */
+    width: 50%;
   }
 }

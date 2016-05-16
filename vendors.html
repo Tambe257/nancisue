@@ -14,6 +14,7 @@
   <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="jquery.bxslider/jquery.bxslider.css">
+  <link rel="stylesheet" href="css/bricklayer.min.css">
   
   <link href='https://fonts.googleapis.com/css?family=Work+Sans:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/bower_components/font-awesome/css/font-awesome.min.css">
@@ -54,73 +55,171 @@
  
   <div class="vendor-banner">
     <h1>Trusted Vendors</h1>
-    <h3>Subtitle Line Will Go Here...</h3>
+    <h3>Click on each vendor below for more information...</h3>
   </div>
   
-  
 <!--  Vendor Cards -->
-  <div class="container vendors">
-    <div class="row">
-      <div class="col-xs-12 col-sm-6 col-md-4 vendor-card" id="vendor-1">
-        <img src="img/vendors/wells-fargo.jpg" alt="Wells Fargo">
-        <div class="vendor-info">
-          <h3>Vendor Name</h3>
-          <p>Short Vendor Description</p>
-        </div>
+  <div class="vendors">
+    <div class="bricklayer">
+      <div class="vendor-card" id="vendor-1">
+      <img src="img/vendors/wells-fargo.jpg" alt="Wells Fargo">
+      <div class="vendor-info">
+        <h4>Wells Fargo Home Mortgage</h4>
+        <p>Jeffrey L. Manyin - Director of Sales</p>
       </div>
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 vendor-card" id="vendor-2">
-        <img src="img/grey-box.jpg" alt="">
+    </div>
+
+      <div class="vendor-card" id="vendor-2">
+        <img src="img/vendors/aladdin-plumbing-corp.png" alt="">
         <div class="vendor-info">
-          <h3>Vendor Name</h3>
-          <p>Short Vendor Description</p>
-        </div>
-      </div>
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 vendor-card" id="vendor-3">
-        <img src="img/grey-box.jpg" alt="">
-        <div class="vendor-info">
-          <h3>Vendor Name</h3>
-          <p>Short Vendor Description</p>
+          <h4>Aladdin Plumbing Corp.</h4>
+          <p>Randy Gitli - Licensed Master Plumber</p>
         </div>
       </div>
 
-      <div class="col-xs-12 col-sm-6 col-md-4 vendor-card" id="vendor-4">
-        <img src="img/grey-box.jpg" alt="">
+      <div class="vendor-card" id="vendor-3">
+        <img src="img/vendors/always-guarding.jpg" alt="">
         <div class="vendor-info">
-          <h3>Vendor Name</h3>
-          <p>Short Vendor Description</p>
+          <h4>Always Guarding You</h4>
+          <h4>Home Inspection</h4>
+          <p>Nicholas Mancuso</p>
         </div>
       </div>
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 vendor-card" id="vendor-5">
-        <img src="img/grey-box.jpg" alt="">
+
+      <div class="vendor-card" id="vendor-4">
+        <img src="img/vendors/CoachTitleAgency_small.jpg" alt="">
         <div class="vendor-info">
-          <h3>Vendor Name</h3>
-          <p>Short Vendor Description</p>
+          <h4>Coach Title Agency</h4>
+          <p>Richard Costello - Account Executive</p>
         </div>
       </div>
-      
-      <div class="col-xs-12 col-sm-6 col-md-4 vendor-card" id="vendor-6">
-        <img src="img/grey-box.jpg" alt="">
+
+      <div class="vendor-card" id="vendor-5">
+        <img src="img/vendors/comerford.jpg" alt="">
         <div class="vendor-info">
-          <h3>Vendor Name</h3>
-          <p>Short Vendor Description</p>
+          <h4>Comerford & Dougherty L.L.P.</h4>
+          <p>Maureen Dougherty - Attorney at Law</p>
         </div>
       </div>
-    </div>
+
+      <div class="vendor-card" id="vendor-6">
+        <img src="img/vendors/dicosimo.jpg" alt="">
+        <div class="vendor-info">
+          <h4>DiCosimo General Contracting</h4>
+          <p>Proudly serving L.I. for over 30 years!</p>
+        </div>
+      </div>
+    </div> <!-- bricklayer -->
   </div> 
 <!--  End Vendor Cards   -->
  
 <!-- Vendor Content -->
   
-  <div class="vendor-content" id="vendor-1-content">
+  <div class="vendor-content content" id="vendor-1-content">
     <div>
-      <h2>Vendor title here</h2>
-      <em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt, ullam.</em>
-      <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum praesentium officia, fugit recusandae ipsa, quia velit nulla adipisci? Consequuntur aspernatur at, eaque hic repellendus sit dicta consequatur quae, ut harum ipsam molestias maxime non nisi reiciendis eligendi! Doloremque quia pariatur harum ea amet quibusdam quisquam, quae, temporibus dolores porro doloribus. 
-      </p>
+      <img src="img/vendors/wells-fargo.jpg" alt="">
+      <h2>Wells Fargo Home Mortgage</h2>
+      <h3>Jeffrey L. Manyin</h3>
+      <em>Director of Sales</em>
+      <p>NMLSR ID 418960</p>
+      <ul class="vendor-list">
+        <li>jeffrey.manyin@wellsfargo.com</li>
+        <li>Office: 516-535-1602</li>
+        <li>Mobile: 516-987-6468</li>
+        <li>Fax: 1-866-667-4046</li>
+        <li>Address:</li>
+        <li>585 Stewart Avenue</li>
+        <li>Suite 660</li>
+        <li>Garden City, 11530</li>
+      </ul>
+    </div>
+    <a href="#0" class="close-content cd-img-replace closeContent" id="close"></a>
+  </div> 
+  
+  <div class="vendor-content content" id="vendor-2-content">
+    <div>
+      <img src="img/vendors/aladdin-plumbing-corp.png" alt="Aladdin Plumbing Corp.">
+      <h2>Aladdin Plumbing Corp.</h2>
+      <h3>Randy Gitli</h3>
+      <em>Licensed Master Plumber</em>
+      <ul class="vendor-list">
+        <li><a href="http://www.aladdinplumbingcorp.com/">aladdinplumbingcorp.com</a></li>
+        <li>Tel: 718-783-4621</li>
+        <li>Address:</li>
+        <li>379 5th Avenue</li>
+        <li>Brooklyn, 11215</li>
+      </ul>
+    </div>
+    <a href="#0" class="close-content cd-img-replace closeContent" id="close"></a>
+  </div> 
+  
+  <div class="vendor-content content" id="vendor-3-content">
+    <div>
+      <img src="img/vendors/always-guarding.jpg" alt="">
+      <h2>Always Gurarding You</h2>
+      <h3>Home Inspection</h3>
+      <em>Nicholas Mancuso</em>
+      <ul class="vendor-list">
+        <li><a href="http://www.alwaysguardingyou.com/">www.alwaysguardingyou.com/</a></li>
+        <li>Tel: 516-530-5504</li>
+        <li>Address:</li>
+        <li>552 DaCosta Ave</li>
+        <li>Oceanside, NY 11572</li>
+      </ul>
+    </div>
+    <a href="#0" class="close-content cd-img-replace closeContent" id="close"></a>
+  </div> 
+  
+  <div class="vendor-content" id="vendor-4-content">
+    <div>
+      <img src="img/vendors/CoachTitleAgency_small.jpg" alt="">
+      <h2>Coach Title Agency</h2>
+      <ul class="vendor-list">
+        <li><a href="http://www.coachtitle.com/">coachtitle.com</a></li>
+        <li>Tel: 631-427-2727</li>
+        <li>Fax: 631-427-0245</li>
+        <li>Address:</li>
+        <li>24 Woodbine Ave.</li>
+        <li>Suite 20</li>
+        <li>Northport, NY 11768</li>
+      </ul>
+    </div>
+    <a href="#0" class="close-content cd-img-replace" id="close"></a>
+  </div> 
+  
+  <div class="vendor-content" id="vendor-5-content">
+    <div>
+      <img src="img/vendors/comerford.jpg" alt="">
+      <h2>Always Gurarding</h2>
+      <h3>Home Inspection</h3>
+      <em>Nicholas Mancuso</em>
+      <ul class="vendor-list">
+        <li>jeffrey.manyin@wellsfargo.com</li>
+        <li>Office: 516-535-1602</li>
+        <li>Mobile: 516-987-6468</li>
+        <li>Fax: 1-866-667-4046</li>
+        <li>Address:</li>
+        <li>585 Stewart Avenue</li>
+        <li>Suite 660</li>
+        <li>Garden City, 11530</li>
+      </ul>
+    </div>
+    <a href="#0" class="close-content cd-img-replace" id="close"></a>
+  </div> 
+  
+  <div class="vendor-content" id="vendor-6-content">
+    <div>
+      <img src="img/vendors/dicosimo.jpg" alt="">
+      <h2>DiCosimo General Contracting</h2>
+      <ul class="vendor-list">
+        <li><a href="http://www.dicosimogc.com">dicosimo.com</a></li>
+        <li>dicosimogc@optonline.net</li>
+        <li>Office: 516-887-5536</li>
+        <li>Fax: 516-887-0536</li>
+        <li>Address:</li>
+        <li>160 Denton Avenue</li>
+        <li>Lynbrook, NY 11563</li>
+      </ul>
     </div>
     <a href="#0" class="close-content cd-img-replace" id="close"></a>
   </div> 
@@ -147,7 +246,7 @@
   <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
   <script src="js/jquery.easing.min.js"></script>
   <script src="jquery.bxslider/jquery.bxslider.min.js"></script>
-  <script src="js/vendor-content.js"></script>
+  <script src="js/bricklayer.min.js"></script>
   <script src="js/custom.js"></script>  
 </body>
 </html>

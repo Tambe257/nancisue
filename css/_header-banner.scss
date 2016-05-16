@@ -2,10 +2,12 @@ header {
   display: block;
   padding: 0.5rem 2rem;
   height: 75px;
+  display: none;
   
   @include breakpoint(sm) {
     height: 100px;
     padding: 0 2rem;
+    display: block;
   }
   
   .header-info {
@@ -13,9 +15,11 @@ header {
     color: $font-grey;
     clear: both;
     
+    
     @include breakpoint(sm) {
       height: 105px;
       width: 100%;
+      text-align: center;
     }
     
     h1 {
@@ -35,7 +39,7 @@ header {
       font-size: 2.5rem;
       
       @include breakpoint(sm) {
-        font-size: 3rem;
+        font-size: 2.7rem;
       }
     }
     
@@ -53,26 +57,28 @@ header {
 }
 
 .banner {
-  background: url('../img/stock-photo-small.jpg') no-repeat;
+  background: url('../img/stock-photo-small.jpg') center no-repeat;
   background-size: cover;
   padding: 0 0 14rem 0;
   
   @include breakpoint(sm) {
-    background: url('../img/stock-photo.jpg') no-repeat;
+    background: url('../img/stock-photo.jpg') center no-repeat;
   }
   
   .banner-content {
     
     .nanci-card {
       display: block;
-      float: left;
       overflow: hidden;
       height: 500px;
       width: 240px;
       background: $white;
       text-align: center;
-      margin-top: 50px;
+      margin: 50px auto 0;
       
+      @include breakpoint(sm) {
+        float: left;
+      }
       .card-info {
         height: auto;
         color: $font-grey;
