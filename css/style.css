@@ -670,7 +670,8 @@ footer {
   width: 100%; }
 
 ul.vendor-list {
-  max-width: 400px; }
+  max-width: 400px;
+  list-style: none; }
   ul.vendor-list li {
     font-size: 20px; }
 

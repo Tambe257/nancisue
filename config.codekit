@@ -1353,6 +1353,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/vendors\/fairfield.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19772,
+		"inputAbbreviatedPath": "\/img\/vendors\/fairfield.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/fairfield.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/hartford-funding.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 12178,
+		"inputAbbreviatedPath": "\/img\/vendors\/hartford-funding.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/hartford-funding.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/vendors\/HartfordFunding.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1382,6 +1404,17 @@
 		"initialSize": 34337,
 		"inputAbbreviatedPath": "\/img\/vendors\/mitchellmedical.jpg",
 		"outputAbbreviatedPath": "\/img\/vendors\/mitchellmedical.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/turnabout-plumbing.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29243,
+		"inputAbbreviatedPath": "\/img\/vendors\/turnabout-plumbing.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/turnabout-plumbing.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
