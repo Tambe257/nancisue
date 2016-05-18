@@ -32,7 +32,6 @@
     transition: all .2s ease-in-out;
     
     &:hover {
-     opacity: 0.9;
      cursor: pointer;
      transform: scale(1.05);  
     }
@@ -148,7 +147,7 @@
   text-align: center;
 }
 .vendor-content p {
-  margin-bottom: 1em;
+  margin-bottom: 0.5em;
   font-size: 1.4rem;
   color: #6f757c;
   text-align: center;
@@ -176,9 +175,11 @@
 ul.vendor-list {
   max-width: 400px;
   list-style: none;
+  margin-top: 20px;
   
   li {
     font-size: 20px;
+    margin: 10px 0;
   }
 }
 

@@ -1265,6 +1265,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/vendors\/burton.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 15977,
+		"inputAbbreviatedPath": "\/img\/vendors\/burton.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/burton.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/vendors\/CoachTitleAgency_small.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1294,6 +1305,17 @@
 		"initialSize": 32841,
 		"inputAbbreviatedPath": "\/img\/vendors\/dalsimer-florest.jpg",
 		"outputAbbreviatedPath": "\/img\/vendors\/dalsimer-florest.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/dalsimer.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25775,
+		"inputAbbreviatedPath": "\/img\/vendors\/dalsimer.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/dalsimer.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1342,6 +1364,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/vendors\/EEL.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18589,
+		"inputAbbreviatedPath": "\/img\/vendors\/EEL.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/EEL.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/vendors\/fairfield-mortgage.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1360,6 +1393,17 @@
 		"initialSize": 19772,
 		"inputAbbreviatedPath": "\/img\/vendors\/fairfield.jpg",
 		"outputAbbreviatedPath": "\/img\/vendors\/fairfield.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/guaranteedrate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 18632,
+		"inputAbbreviatedPath": "\/img\/vendors\/guaranteedrate.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/guaranteedrate.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1390,7 +1434,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 78352,
+		"initialSize": 14187,
 		"inputAbbreviatedPath": "\/img\/vendors\/housemaster.jpg",
 		"outputAbbreviatedPath": "\/img\/vendors\/housemaster.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1404,6 +1448,28 @@
 		"initialSize": 34337,
 		"inputAbbreviatedPath": "\/img\/vendors\/mitchellmedical.jpg",
 		"outputAbbreviatedPath": "\/img\/vendors\/mitchellmedical.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/placeholder.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 11870,
+		"inputAbbreviatedPath": "\/img\/vendors\/placeholder.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/placeholder.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/tonytambe.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 44078,
+		"inputAbbreviatedPath": "\/img\/vendors\/tonytambe.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/tonytambe.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1441,6 +1507,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/vendors\/unreal.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 51653,
+		"inputAbbreviatedPath": "\/img\/vendors\/unreal.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/unreal.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/vendors\/wells-fargo.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1459,6 +1536,17 @@
 		"initialSize": 9315,
 		"inputAbbreviatedPath": "\/img\/vendors\/win-inspection.png",
 		"outputAbbreviatedPath": "\/img\/vendors\/win-inspection.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/win.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13500,
+		"inputAbbreviatedPath": "\/img\/vendors\/win.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/win.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
