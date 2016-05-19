@@ -968,6 +968,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/listings\/mls-2851347.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21331,
+		"inputAbbreviatedPath": "\/img\/listings\/mls-2851347.JPG",
+		"outputAbbreviatedPath": "\/img\/listings\/mls-2851347.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/LRE_logo.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1008,6 +1019,17 @@
 		"initialSize": 3057,
 		"inputAbbreviatedPath": "\/img\/mayfair_footer_final.png",
 		"outputAbbreviatedPath": "\/img\/mayfair_footer_final.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/no-image.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 24815,
+		"inputAbbreviatedPath": "\/img\/no-image.jpg",
+		"outputAbbreviatedPath": "\/img\/no-image.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1393,6 +1415,17 @@
 		"initialSize": 19772,
 		"inputAbbreviatedPath": "\/img\/vendors\/fairfield.jpg",
 		"outputAbbreviatedPath": "\/img\/vendors\/fairfield.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/vendors\/fast-track.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 53680,
+		"inputAbbreviatedPath": "\/img\/vendors\/fast-track.jpg",
+		"outputAbbreviatedPath": "\/img\/vendors\/fast-track.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
