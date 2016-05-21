@@ -1,34 +1,39 @@
-$('#nav').affix({
-  offset: {
-    top: 100
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 100) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
   }
 });
 
+$('.burger a').click(function(){
+  $('.topnav').toggleClass('responsive');
+});
 
-//$(function() {
-//  if ($(window).width > 375) {
-//    $('#nav').affix({
-//      offset: {
-//        top: 100
-//      }
-//    });
+
+//$('#nav').affix({
+//  offset: {
+//    top: 100
 //  }
 //});
 
-/* Fade in navbar-brand on scroll */
 
-$(document).on('scroll', function() {
-  $('#nav').each(function(){
-    if($(this).hasClass('affix')) {
-      $('.navbar-brand').fadeIn(500);
-      $('#right-nav').addClass('navbar-right');
-    } else {
-      $('.navbar-brand').hide();
-      $('#right-nav').removeClass('navbar-right');
-      $('navbar-nav').attr('float: none');
-    }
-  });
-});
+
+
+/* Fade in navbar-brand on scroll */
+//
+//$(document).on('scroll', function() {
+//  $('#nav').each(function(){
+//    if($(this).hasClass('affix')) {
+//      $('.navbar-brand').fadeIn(500);
+//      $('#right-nav').addClass('navbar-right');
+//    } else {
+//      $('.navbar-brand').hide();
+//      $('#right-nav').removeClass('navbar-right');
+//      $('navbar-nav').attr('float: none');
+//    }
+//  });
+//});
 
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin

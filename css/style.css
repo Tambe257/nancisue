@@ -102,73 +102,75 @@ header {
   @media (min-width: 768px) {
     .banner {
       background: url("../img/stock-photo.jpg") center no-repeat; } }
-  .banner .banner-content .nanci-card {
-    display: block;
-    overflow: hidden;
-    height: 500px;
-    width: 240px;
-    background: #fff;
-    text-align: center;
-    margin: 50px auto 0; }
-    @media (min-width: 768px) {
-      .banner .banner-content .nanci-card {
-        float: left; } }
-    .banner .banner-content .nanci-card .card-info {
-      height: auto;
-      color: #4a4b4f; }
-      .banner .banner-content .nanci-card .card-info h1 {
-        font-size: 3.5rem;
-        margin: 1rem;
-        font-weight: 700; }
-      .banner .banner-content .nanci-card .card-info h2 {
-        font-size: 3.0rem;
-        margin: -0.5rem 0 0; }
-      .banner .banner-content .nanci-card .card-info h3 {
-        font-size: 1.8rem;
-        margin: 0.5rem; }
-      .banner .banner-content .nanci-card .card-info h4 {
-        font-size: 1.7rem; }
-      .banner .banner-content .nanci-card .card-info ul.social-icons {
-        list-style: none;
-        padding: 0;
-        margin-top: 1.5rem; }
-        .banner .banner-content .nanci-card .card-info ul.social-icons li {
-          display: inline-block;
-          margin: 0 8px;
-          width: 26px;
-          height: 25px; }
-          .banner .banner-content .nanci-card .card-info ul.social-icons li .mail {
-            display: block;
+  .banner .banner-content {
+    padding: 70px 0; }
+    .banner .banner-content .nanci-card {
+      display: block;
+      overflow: hidden;
+      height: 500px;
+      width: 240px;
+      background: #fff;
+      text-align: center;
+      margin: 50px auto 0; }
+      @media (min-width: 768px) {
+        .banner .banner-content .nanci-card {
+          float: left; } }
+      .banner .banner-content .nanci-card .card-info {
+        height: auto;
+        color: #4a4b4f; }
+        .banner .banner-content .nanci-card .card-info h1 {
+          font-size: 3.5rem;
+          margin: 1rem;
+          font-weight: 700; }
+        .banner .banner-content .nanci-card .card-info h2 {
+          font-size: 3.0rem;
+          margin: -0.5rem 0 0; }
+        .banner .banner-content .nanci-card .card-info h3 {
+          font-size: 1.8rem;
+          margin: 0.5rem; }
+        .banner .banner-content .nanci-card .card-info h4 {
+          font-size: 1.7rem; }
+        .banner .banner-content .nanci-card .card-info ul.social-icons {
+          list-style: none;
+          padding: 0;
+          margin-top: 1.5rem; }
+          .banner .banner-content .nanci-card .card-info ul.social-icons li {
+            display: inline-block;
+            margin: 0 8px;
             width: 26px;
-            height: 25px;
-            background: transparent url("../img/mail-light.png") no-repeat;
-            -webkit-transition: background .3s ease-in-out;
-            -moz-transition: background .3s ease-in-out;
-            transition: background .3s ease-in-out; }
-            .banner .banner-content .nanci-card .card-info ul.social-icons li .mail:hover {
-              background: transparent url("../img/mail-dark.png") no-repeat; }
-          .banner .banner-content .nanci-card .card-info ul.social-icons li .facebook {
-            display: block;
-            width: 26px;
-            height: 25px;
-            background: url("/img/facebook-light.png");
-            -webkit-transition: background .3s ease-in-out;
-            -moz-transition: background .3s ease-in-out;
-            transition: background .3s ease-in-out; }
-            .banner .banner-content .nanci-card .card-info ul.social-icons li .facebook:hover {
-              background: transparent url("../img/facebook-dark.png") no-repeat; }
-          .banner .banner-content .nanci-card .card-info ul.social-icons li .linked {
-            display: block;
-            width: 26px;
-            height: 25px;
-            background: url("/img/linked-light.png");
-            -webkit-transition: background .3s ease-in-out;
-            -moz-transition: background .3s ease-in-out;
-            transition: background .3s ease-in-out; }
-            .banner .banner-content .nanci-card .card-info ul.social-icons li .linked:hover {
-              background: transparent url("../img/linked-dark.png") no-repeat; }
-    .banner .banner-content .nanci-card img {
-      height: 275px; }
+            height: 25px; }
+            .banner .banner-content .nanci-card .card-info ul.social-icons li .mail {
+              display: block;
+              width: 26px;
+              height: 25px;
+              background: transparent url("../img/mail-light.png") no-repeat;
+              -webkit-transition: background .3s ease-in-out;
+              -moz-transition: background .3s ease-in-out;
+              transition: background .3s ease-in-out; }
+              .banner .banner-content .nanci-card .card-info ul.social-icons li .mail:hover {
+                background: transparent url("../img/mail-dark.png") no-repeat; }
+            .banner .banner-content .nanci-card .card-info ul.social-icons li .facebook {
+              display: block;
+              width: 26px;
+              height: 25px;
+              background: url("/img/facebook-light.png");
+              -webkit-transition: background .3s ease-in-out;
+              -moz-transition: background .3s ease-in-out;
+              transition: background .3s ease-in-out; }
+              .banner .banner-content .nanci-card .card-info ul.social-icons li .facebook:hover {
+                background: transparent url("../img/facebook-dark.png") no-repeat; }
+            .banner .banner-content .nanci-card .card-info ul.social-icons li .linked {
+              display: block;
+              width: 26px;
+              height: 25px;
+              background: url("/img/linked-light.png");
+              -webkit-transition: background .3s ease-in-out;
+              -moz-transition: background .3s ease-in-out;
+              transition: background .3s ease-in-out; }
+              .banner .banner-content .nanci-card .card-info ul.social-icons li .linked:hover {
+                background: transparent url("../img/linked-dark.png") no-repeat; }
+      .banner .banner-content .nanci-card img {
+        height: 275px; }
   .banner .navbar {
     margin-bottom: 6rem;
     background: #8a2003;
@@ -186,72 +188,206 @@ header {
   .banner .navbar-default, .banner .navbar-collapse {
     border: none; }
 
-#nav.affix, #nav-nanci.affix {
-  position: fixed;
-  top: 0;
-  width: 100%; }
+nav {
+  background: #fff; }
+  nav .brand {
+    float: left;
+    margin: 10px 0;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    text-align: center;
+    width: 410px; }
+    nav .brand a:hover, nav .brand a:visited {
+      text-decoration: none; }
+    nav .brand h1 {
+      color: #4a4b4f;
+      margin: 5px 0;
+      text-transform: uppercase;
+      font-weight: 200;
+      font-family: "Work Sans", sans-serif;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+      nav .brand h1 span {
+        color: #333; }
+    nav .brand h2 {
+      color: #4a4b4f;
+      margin: 5px 0;
+      font-size: 24px;
+      -webkit-transition: all 0.3s ease-in-out;
+      -moz-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out; }
+  nav .burger {
+    display: none; }
 
-.navbar {
-  margin: 0;
-  background: #8a2003;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  border-radius: 0px;
-  z-index: 5; }
-  .navbar a {
-    color: #fff; }
-  .navbar a.navbar-brand {
-    display: none;
-    font-family: "Work Sans", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    -webkit-transition: all 0s ease-in-out;
-    -moz-transition: all 0s ease-in-out;
-    transition: all 0s ease-in-out; }
-  .navbar a.navbar-brand:hover {
-    color: #b3b3b3;
-    font-size: 24px; }
-  .navbar li {
-    float: none;
-    display: inline-block; }
-    .navbar li a, .navbar li a.page-scroll {
-      color: #fff;
-      font-size: 1.6rem; }
-      .navbar li a:visited, .navbar li a:focus, .navbar li a.page-scroll:visited, .navbar li a.page-scroll:focus {
-        color: #fff; }
-      .navbar li a:hover, .navbar li a.page-scroll:hover {
-        color: #b3b3b3; }
+/*  nav.shrink  */
+nav.shrink .brand {
+  margin: 0; }
+  nav.shrink .brand h1 {
+    font-size: 22px; }
+  nav.shrink .brand h2 {
+    font-size: 16px; }
 
-.navbar-default, .navbar-collapse {
-  border: none; }
+nav.shrink ul.left-nav li {
+  padding: 20px 0 20px 0; }
+  nav.shrink ul.left-nav li a {
+    font-size: 15px; }
+nav.shrink ul.right-nav li {
+  padding: 20px 0 20px 0; }
+  nav.shrink ul.right-nav li a {
+    font-size: 15px; }
+nav.shrink ul.topnav {
+  height: 55px; }
+nav.shrink ul.topnav li a {
+  font-size: 15px; }
 
-.navbar-default .navbar-nav > li > a {
-  color: #fff;
-  font-size: 1.6rem; }
-  .navbar-default .navbar-nav > li > a:hover {
-    color: #b3b3b3; }
+ul.left-nav {
+  float: left;
+  list-style: none;
+  padding: 0;
+  width: 365px;
+  margin: 0; }
+  ul.left-nav li {
+    display: inline-block;
+    padding: 63px 0 0 0;
+    width: 45%; }
+    ul.left-nav li a {
+      color: #4a4b4f;
+      font-weight: 700;
+      text-align: center;
+      padding: 0px 10px;
+      text-decoration: none;
+      transition: 0.3s;
+      font-size: 17px; }
+      ul.left-nav li a:hover {
+        color: #68696f; }
 
-.nav-wrapper {
-  min-height: 50px; }
+ul.right-nav {
+  float: left;
+  list-style: none;
+  padding: 0;
+  width: 365px;
+  margin: 0; }
+  ul.right-nav li {
+    display: inline-block;
+    float: right;
+    padding: 63px 0 0 0;
+    width: 45%; }
+    ul.right-nav li a {
+      color: #4a4b4f;
+      font-weight: 700;
+      text-align: center;
+      padding: 14px 10px;
+      text-decoration: none;
+      transition: 0.3s;
+      font-size: 17px; }
 
-.navbar-default .navbar-brand, .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
-  color: #fff;
-  font-size: 1.6rem; }
-  .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus:hover, .navbar-default .navbar-brand:hover:hover {
-    color: #e6e6e6; }
+ul.topnav {
+  list-style-type: none;
+  margin: 0 15px 0 0;
+  padding: 0;
+  overflow: hidden;
+  float: right;
+  height: 100px;
+  display: none; }
 
-.navbar-nav {
-  float: none;
-  text-align: center; }
+ul.topnav li {
+  float: left;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%); }
 
-#nav-nanci a.navbar-brand {
-  display: block;
-  font-family: "Work Sans", sans-serif;
-  font-size: 24px;
+ul.topnav li a {
+  display: inline-block;
+  color: #4a4b4f;
   font-weight: 700;
-  opacity: 1; }
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 17px; }
 
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+  background-color: inherit; }
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+  display: none; }
+
+/* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
+@media screen and (max-width: 680px) {
+  ul.topnav {
+    height: 100%; }
+
+  ul.topnav li {
+    display: none; }
+
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+    margin-top: 35px; }
+
+  ul.topnav li a {
+    padding: 5px 20px; }
+
+  nav .brand {
+    margin: 0; }
+    nav .brand h1 {
+      font-size: 26px;
+      margin-top: 5px; }
+    nav .brand h2 {
+      font-size: 16px; } }
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
+@media screen and (max-width: 680px) {
+  ul.topnav {
+    height: 100%;
+    width: 100%;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    display: block; }
+
+  ul.topnav.responsive {
+    position: relative; }
+
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0; }
+
+  ul.topnav.responsive li {
+    float: none;
+    display: inline; }
+
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+    padding: 10px 20px; }
+    ul.topnav.responsive li a:hover {
+      color: black; }
+
+  nav .brand {
+    margin: 0; }
+    nav .brand h1 {
+      font-size: 26px; }
+    nav .brand h2 {
+      font-size: 20px; }
+  nav .burger {
+    display: block;
+    position: relative;
+    float: right;
+    margin: 20px 5px 0 0; }
+    nav .burger a, nav .burger a:hover {
+      color: #333;
+      text-decoration: none;
+      font-size: 20px; }
+    nav .burger a:visited {
+      color: #333;
+      text-decoration: none; } }
 #current-listings {
   padding: 2rem 1.5rem 3rem 1.5rem; }
   @media (min-width: 768px) {
