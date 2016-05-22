@@ -59,10 +59,11 @@ header {
 .banner {
   background: url('../img/stock-photo-small.jpg') center no-repeat;
   background-size: cover;
-  padding: 0 0 14rem 0;
+  padding: 0 0 6rem 0;
   
   @include breakpoint(sm) {
     background: url('../img/stock-photo.jpg') center no-repeat;
+    background-size: cover;
   }
   
   .banner-content {

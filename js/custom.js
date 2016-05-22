@@ -10,30 +10,11 @@ $('.burger a').click(function(){
   $('.topnav').toggleClass('responsive');
 });
 
-
-//$('#nav').affix({
-//  offset: {
-//    top: 100
-//  }
-//});
-
-
-
-
-/* Fade in navbar-brand on scroll */
-//
-//$(document).on('scroll', function() {
-//  $('#nav').each(function(){
-//    if($(this).hasClass('affix')) {
-//      $('.navbar-brand').fadeIn(500);
-//      $('#right-nav').addClass('navbar-right');
-//    } else {
-//      $('.navbar-brand').hide();
-//      $('#right-nav').removeClass('navbar-right');
-//      $('navbar-nav').attr('float: none');
-//    }
-//  });
-//});
+(function () {
+	$('.hamburger-menu').on('click', function() {
+		$('.bar').toggleClass('animate');
+	})
+})();
 
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -48,6 +29,7 @@ $(function() {
   });
 });
 
+
 /* Animate third section on scroll */
 $(function() {
   $(window).scroll( function(){
@@ -57,7 +39,7 @@ $(function() {
       var bottom_of_window = $(window).scrollTop() + $(window).height();
 
       /* Adjust the "50" to either have a delay or that the content starts fading a bit before you reach it  */
-      bottom_of_window = bottom_of_window + 10;  
+      bottom_of_window = bottom_of_window - 50;  
 
       if( bottom_of_window > bottom_of_object ){
 

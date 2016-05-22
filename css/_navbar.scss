@@ -9,6 +9,7 @@ nav {
     transition: all 0.3s ease-in-out;
     text-align: center;
     width: 410px;
+    
     a:hover, a:visited {
       text-decoration: none;
     } 
@@ -43,6 +44,10 @@ nav {
   }
 }
 
+nav.navbar {
+  margin: 0;
+  border-bottom: 3px solid #a20000;
+}
 /*  nav.shrink  */
 nav.shrink {
   .brand {
@@ -100,6 +105,7 @@ ul.left-nav {
     display: inline-block;
     padding: 63px 0 0 0;
     width: 45%;
+    text-align: center;
     
     a {
       color: $font-grey;
@@ -111,7 +117,7 @@ ul.left-nav {
       font-size: 17px;
       
       &:hover {
-        color: $font-grey * 1.4;
+        color: #a20000;
       }
     }
   }
@@ -129,6 +135,7 @@ ul.right-nav {
     float: right;
     padding: 63px 0 0 0;
     width: 45%;
+    text-align: center;
     
     a {
       color: $font-grey;
@@ -138,6 +145,10 @@ ul.right-nav {
       text-decoration: none;
       transition: 0.3s;
       font-size: 17px;
+      
+      a:hover {
+        color: #a20000;
+      }
     }
   }
 }
@@ -175,7 +186,11 @@ ul.topnav li a:hover {background-color: inherit;}
 ul.topnav li.icon {display: none;}
 
 /* When the screen is less than 680 pixels wide, hide all list items, except for the first one ("Home"). Show the list item that contains the link to open and close the topnav (li.icon) */
-@media screen and (max-width:680px) {
+@media screen and (max-width:1199px) {
+  ul.right-nav, ul.left-nav {
+    display: none;
+  }
+  
   ul.topnav {
     height: 100%;
   }
@@ -193,6 +208,7 @@ ul.topnav li.icon {display: none;}
   nav {
     .brand {
       margin: 0;
+      width: 300px;
 
       h1 {
         font-size: 26px;
@@ -207,7 +223,11 @@ ul.topnav li.icon {display: none;}
 }
 
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens */
-@media screen and (max-width:680px) {
+@media screen and (max-width:1199px) {
+  ul.right-nav, ul.left-nav {
+    display: none;
+  }
+  
   ul.topnav {
     height: 100%;
     width: 100%;
@@ -227,6 +247,7 @@ ul.topnav li.icon {display: none;}
   ul.topnav.responsive li {
     float: none;
     display: inline;
+    color: #a20000;
   }
   ul.topnav.responsive li a {
     display: block;
@@ -234,20 +255,21 @@ ul.topnav li.icon {display: none;}
     padding: 10px 20px;
     
     &:hover {
-      color: black;
+      color: #a20000;
     }
   }
   
   nav {
     .brand {
-      margin: 0;
+      margin: 0 0 5px 0;
+      width: 350px;
 
       h1 {
-        font-size: 26px;
+        font-size: 28px;
       }
 
       h2 {
-        font-size: 20px;
+        font-size: 18px;
       }
     }
     
@@ -257,7 +279,43 @@ ul.topnav li.icon {display: none;}
       float: right;
       margin: 20px 5px 0 0;
       
-      a, a:hover {
+      a {
+        color: $grey;
+        text-decoration: none;
+        font-size: 20px;
+      }
+      
+      a:visited {
+        color: $grey;
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+/* iPhone 5 type screens */
+@media screen and (max-width:374px) {
+  nav {
+    .brand {
+      margin: 0 0 5px 0;
+      width: 250px;
+
+      h1 {
+        font-size: 22px;
+      }
+
+      h2 {
+        font-size: 14px;
+      }
+    }
+    
+    .burger {
+      display: block;
+      position: relative;
+      float: right;
+      margin: 15px 5px 0 0;
+      
+      a {
         color: $grey;
         text-decoration: none;
         font-size: 20px;
@@ -272,6 +330,71 @@ ul.topnav li.icon {display: none;}
 }
 
 
+/* hamburger icon */
+
+$bar-width: 20px;
+$bar-height: 2px;
+$bar-spacing: 5px;
+
+.hamburger-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: $bar-width;
+  height: $bar-height + $bar-spacing*2;
+  cursor: pointer;
+}
+
+.bar,
+.bar:after,
+.bar:before {
+  width: $bar-width;
+  height: $bar-height;
+}
+
+.bar {
+	position: relative;
+	transform: translateY($bar-spacing);
+	background: rgba(0, 0, 0, 1);
+	transition: all 0ms 300ms;
+  
+  &.animate {
+    background: transparent; 
+  }
+}
+
+.bar:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: $bar-spacing;
+	background: rgba(0, 0, 0, 1);
+	transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: $bar-spacing;
+	background: rgba(0, 0, 0, 1);
+	transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.bar.animate:after {
+	top: 0;
+	transform: rotate(45deg);
+	transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);;
+}
+
+.bar.animate:before {
+	bottom: 0;
+	transform: rotate(-45deg);
+	transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);;
+}
 //#nav.affix, #nav-nanci.affix {
 //  position: fixed;
 //  top: 0;
