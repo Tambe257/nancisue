@@ -979,6 +979,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/listings\/mls-2854042.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21733,
+		"inputAbbreviatedPath": "\/img\/listings\/mls-2854042.JPG",
+		"outputAbbreviatedPath": "\/img\/listings\/mls-2854042.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/listings\/mls-2854180.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 21875,
+		"inputAbbreviatedPath": "\/img\/listings\/mls-2854180.JPG",
+		"outputAbbreviatedPath": "\/img\/listings\/mls-2854180.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/LRE_logo.png": {
 		"fileType": 32768,
 		"ignore": 0,

@@ -23,6 +23,24 @@ body {
   -moz-transition: 1.5s ease-in-out;
   -webkit-transition: 1.5s ease-in-out; }
 
+button.main-button {
+  background: #a20000;
+  border: none;
+  padding: 10px 15px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  border-radius: 2px;
+  margin-top: 10px; }
+  button.main-button:hover {
+    background: #ba0000; }
+  button.main-button a {
+    color: #fff;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased; }
+    button.main-button a:hover {
+      text-decoration: none; }
+
 .cf:before,
 .cf:after {
   content: " ";
@@ -98,7 +116,7 @@ header {
 .banner {
   background: url("../img/stock-photo-small.jpg") center no-repeat;
   background-size: cover;
-  padding: 0 0 6rem 0; }
+  padding: 0 0 2rem 0; }
   @media (min-width: 768px) {
     .banner {
       background: url("../img/stock-photo.jpg") center no-repeat;
@@ -116,6 +134,9 @@ header {
       @media (min-width: 768px) {
         .banner .banner-content .nanci-card {
           float: left; } }
+      @media (min-width: 992px) {
+        .banner .banner-content .nanci-card {
+          margin: 50px 0 0 20px; } }
       .banner .banner-content .nanci-card .card-info {
         height: auto;
         color: #4a4b4f; }
@@ -289,7 +310,7 @@ ul.right-nav {
       text-decoration: none;
       transition: 0.3s;
       font-size: 17px; }
-      ul.right-nav li a a:hover {
+      ul.right-nav li a:hover {
         color: #a20000; }
 
 ul.topnav {
@@ -430,9 +451,9 @@ ul.topnav li.icon {
 /* hamburger icon */
 .hamburger-menu {
   position: absolute;
-  top: 0;
+  top: 25px;
   left: 0;
-  right: 0;
+  right: 25px;
   bottom: 0;
   margin: auto;
   width: 20px;
@@ -487,9 +508,16 @@ ul.topnav li.icon {
       padding: 2.5rem 1.5rem 5rem 1.5rem; } }
   #current-listings h2 {
     font-size: 40px;
-    margin: 30px 0 30px 0;
+    margin: 30px 0 0 0;
     color: #4a4b4f;
-    text-align: center; }
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700; }
+  #current-listings hr {
+    width: 30%;
+    border-color: #4a4b4f;
+    margin-bottom: 30px;
+    margin-top: 5px; }
   #current-listings .current-listing {
     display: block;
     border: solid 1px #ccc;
@@ -517,7 +545,7 @@ ul.topnav li.icon {
         list-style: none;
         padding: 0px; }
         #current-listings .current-listing .current-listing-info ul li button {
-          background: #8a2003;
+          background: #a20000;
           border: none;
           padding: 10px 15px;
           -webkit-border-radius: 2px;
@@ -526,10 +554,11 @@ ul.topnav li.icon {
           border-radius: 2px;
           margin-top: 10px; }
           #current-listings .current-listing .current-listing-info ul li button:hover {
-            background: #9f2503; }
+            background: #ba0000; }
           #current-listings .current-listing .current-listing-info ul li button a {
             color: #fff;
             font-weight: 500;
+            font-family: "Work Sans", sans-serif;
             -webkit-font-smoothing: antialiased; }
             #current-listings .current-listing .current-listing-info ul li button a:hover {
               text-decoration: none; }
@@ -584,7 +613,7 @@ ul.topnav li.icon {
     right: 0;
     opacity: 1; }
   #third-section button {
-    background: #8a2003;
+    background: #a20000;
     border: none;
     padding: 10px 15px;
     -webkit-border-radius: 5px;
@@ -593,7 +622,7 @@ ul.topnav li.icon {
     border-radius: 5px;
     margin-top: 10px; }
     #third-section button:hover {
-      background: #9f2503; }
+      background: #ba0000; }
     #third-section button a {
       color: #fff;
       font-weight: 500;
@@ -604,25 +633,31 @@ ul.topnav li.icon {
 #contact {
   padding: 3rem 0;
   background: rgba(206, 206, 206, 0.5);
-  text-align: center; }
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 700; }
   @media (min-width: 768px) {
     #contact {
       padding: 5rem 0; } }
   #contact .contact-info {
-    text-align: center; }
+    text-align: center;
+    font-weight: 700; }
     #contact .contact-info i {
-      margin: 25px 0px 10px 0px; }
+      margin: 25px 0px 10px 0px;
+      font-weight: 500; }
   #contact h2.contact-nanci {
-    margin-bottom: 20px; }
+    margin-bottom: 20px;
+    font-weight: 700; }
   #contact h2.section-heading {
     font-size: 3rem;
     margin: 15px 0 15px 0;
-    display: none; }
+    display: none;
+    font-weight: 700; }
     @media (min-width: 768px) {
       #contact h2.section-heading {
         display: block; } }
   #contact hr {
-    border: #8a2003 solid 1px; }
+    border: #a20000 solid 1px; }
   #contact hr.primary {
     max-width: 50px;
     margin: 25px auto 50px auto;
@@ -648,10 +683,13 @@ ul.topnav li.icon {
     list-style: none;
     margin: 40px 0;
     padding: 0; }
+    #contact ul.coach-address h3 {
+      font-weight: 700; }
     #contact ul.coach-address li {
       font-size: 2rem;
       font-weight: 500;
-      margin: 10px 0; }
+      margin: 10px 0;
+      font-weight: 700; }
 
 footer {
   background: #fff;
@@ -666,50 +704,71 @@ footer {
     footer .footer-right {
       text-align: right; } }
 
-.listing {
-  max-width: 350px;
-  height: 460;
-  display: block;
-  border: solid 1px #ccc;
-  overflow: hidden;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  border-radius: 5px;
-  margin: 10px auto; }
-  .listing .listing-pic {
-    display: block;
-    position: relative;
+.sales {
+  padding-top: 100px; }
+  .sales .sales-title {
     text-align: center;
+    font-family: "Work Sans", sans-serif; }
+    .sales .sales-title h2 {
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 0; }
+    .sales .sales-title hr {
+      width: 20%;
+      border-color: #4a4b4f;
+      margin-top: 5px; }
+    .sales .sales-title ul.sales-years {
+      list-style: none;
+      padding: 0; }
+      .sales .sales-title ul.sales-years li {
+        display: inline-block;
+        margin: 0 15px; }
+        .sales .sales-title ul.sales-years li button.main-button a {
+          font-size: 20px;
+          font-weight: 700; }
+  .sales .listing {
+    max-width: 350px;
+    height: 460;
+    display: block;
+    border: solid 1px #ccc;
     overflow: hidden;
-    width: 350px; }
-  .listing .listing-info {
-    padding: 0 0 20px 0; }
-    .listing .listing-info ul {
-      list-style: none; }
-      .listing .listing-info ul li button {
-        background: #8a2003;
-        border: none;
-        padding: 10px 15px;
-        -webkit-border-radius: 2px;
-        -moz-border-radius: 2px;
-        -ms-border-radius: 2px;
-        border-radius: 2px;
-        margin-top: 10px; }
-        .listing .listing-info ul li button:hover {
-          background: #9f2503; }
-        .listing .listing-info ul li button a {
-          color: #fff;
-          font-weight: 500;
-          -webkit-font-smoothing: antialiased; }
-          .listing .listing-info ul li button a:hover {
-            text-decoration: none; }
-      .listing .listing-info ul li p {
-        font-size: 1.5rem; }
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    border-radius: 5px;
+    margin: 10px auto; }
+    .sales .listing .listing-pic {
+      display: block;
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+      width: 350px; }
+    .sales .listing .listing-info {
+      padding: 0 0 20px 0; }
+      .sales .listing .listing-info ul {
+        list-style: none; }
+        .sales .listing .listing-info ul li button {
+          background: #8a2003;
+          border: none;
+          padding: 10px 15px;
+          margin-top: 10px; }
+          .sales .listing .listing-info ul li button:hover {
+            background: #9f2503; }
+          .sales .listing .listing-info ul li button a {
+            color: #fff;
+            font-weight: 500;
+            -webkit-font-smoothing: antialiased; }
+            .sales .listing .listing-info ul li button a:hover {
+              text-decoration: none; }
+        .sales .listing .listing-info ul li p {
+          font-size: 1.5rem; }
 
 #about {
   padding: 40px 0;
-  text-align: center; }
+  text-align: center;
+  font-family: "Work Sans", sans-serif; }
+  #about h2 {
+    font-weight: 700; }
   #about #about-avatar {
     padding: 20px 0; }
     #about #about-avatar img {
@@ -722,12 +781,12 @@ footer {
   #about .about-info {
     clear: both; }
     #about .about-info p {
-      font-size: 16px;
+      font-size: 18px;
       margin: 10px 0 30px 0; }
     #about .about-info .read-more {
       margin-right: 20px; }
   #about button {
-    background: #8a2003;
+    background: #a20000;
     border: none;
     padding: 10px 15px;
     -webkit-border-radius: 5px;
@@ -736,10 +795,10 @@ footer {
     border-radius: 5px;
     margin-top: 10px; }
     #about button:hover {
-      background: #9f2503; }
+      background: #ba0000; }
     #about button a {
       color: #fff;
-      font-weight: 500;
+      font-weight: 700;
       -webkit-font-smoothing: antialiased; }
       #about button a:hover {
         text-decoration: none; }

@@ -2,6 +2,8 @@
   padding: 3rem 0;
   background: rgba(206, 206, 206, 0.5);
   text-align: center;
+  font-family: $main-font;
+  font-weight: 700;
   
   @include breakpoint(sm) {
     padding: 5rem 0;
@@ -9,20 +11,24 @@
   
   .contact-info {
     text-align: center;
+    font-weight: 700;
     
     i {
       margin: 25px 0px 10px 0px;
+      font-weight: 500;
     }
   }
   
   h2.contact-nanci {
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
+    font-weight: 700;
   }
   
   h2.section-heading {
     font-size: 3rem;
     margin: 15px 0 15px 0;
     display: none;
+    font-weight: 700;
     
     @include breakpoint(sm) {
       display: block;
@@ -30,7 +36,7 @@
   }
   
   hr {
-    border: $maroon solid 1px;
+    border: $red solid 1px;
   }
   
   hr.primary {
@@ -59,6 +65,7 @@
   p {
     font-size: 1.7rem;
     
+    
     a {
       color: $coach-blue;
       
@@ -74,10 +81,15 @@
     margin: 40px 0;
     padding: 0;
     
+    h3 {
+      font-weight: 700;
+    }
+    
     li {
       font-size: 2rem;
       font-weight: 500;
       margin: 10px 0;
+      font-weight: 700;
     }
   }
 }

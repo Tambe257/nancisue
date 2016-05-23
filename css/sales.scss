@@ -1,62 +1,101 @@
-.listing {
-  max-width: 350px;
-  height: 460;
-  display: block;
-  border: solid 1px #ccc;
-  overflow: hidden;
-  @include border-radius(5px);
-  margin: 10px auto;  
-
-  @include breakpoint(sm) {
-    
-  }
+.sales {
+  padding-top: 100px;
   
-  .listing-pic {
-    display: block;
-    position: relative;
+  .sales-title {
     text-align: center;
-    overflow: hidden;
-    width: 350px;
-    img {
+    font-family: $main-font;
+    
+    h2 {
+      font-weight: 600;
+      text-transform: uppercase;
+      margin-bottom: 0;
+    }
+    
+    hr {
+      width: 20%;
+      border-color: $font-grey;
+      margin-top: 5px;
+    }
+    
+    ul.sales-years {
+      list-style: none;
+      padding: 0;
       
+      li {
+        display: inline-block;
+        margin: 0 15px;
+        
+        button.main-button {
+          
+          
+          a {
+            font-size: 20px;
+            font-weight: 700;
+          } 
+        }
+      }
     }
   }
   
-  .listing-info {
-    padding: 0 0 20px 0;
-    ul {
-      list-style: none;
-      
-      li {
-        
-        button {
-          background: $maroon;
-          border: none;
-          padding: 10px 15px;
-          @include border-radius(2px);
-          margin-top: 10px;
-          
-          &:hover {
-            background: $maroon * 1.15; 
-          }
-          
-          a {
-            color: $white;
-            font-weight: 500;
-            -webkit-font-smoothing: antialiased;
-            
+  .listing {
+    max-width: 350px;
+    height: 460;
+    display: block;
+    border: solid 1px #ccc;
+    overflow: hidden;
+    @include border-radius(5px);
+    margin: 10px auto;  
+
+    @include breakpoint(sm) {
+
+    }
+
+    .listing-pic {
+      display: block;
+      position: relative;
+      text-align: center;
+      overflow: hidden;
+      width: 350px;
+      img {
+
+      }
+    }
+
+    .listing-info {
+      padding: 0 0 20px 0;
+      ul {
+        list-style: none;
+
+        li {
+
+          button {
+            background: $maroon;
+            border: none;
+            padding: 10px 15px;
+            margin-top: 10px;
+
             &:hover {
-              text-decoration: none;
+              background: $maroon * 1.15; 
             }
-          } 
-        }
-        
-        h3 {
-          
-        }
-        
-        p {
-          font-size: 1.5rem;
+
+            a {
+              color: $white;
+              font-weight: 500;
+              -webkit-font-smoothing: antialiased;
+
+              &:hover {
+                text-decoration: none;
+              }
+            } 
+          }
+
+          h3 {
+
+          }
+
+          p {
+            font-size: 1.5rem;
+          }
         }
       }
     }

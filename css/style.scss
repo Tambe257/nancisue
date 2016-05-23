@@ -3,6 +3,7 @@ $grey: #333;
 $font-grey: #4a4b4f;
 $light-grey: #e4eaf6;
 $maroon: #8a2003;
+$red: #a20000;
 $coach-blue: #0068b3;
 
 @import "mixins";
@@ -108,6 +109,28 @@ body {
   transition: 1.5s ease-in-out;
   -moz-transition: 1.5s ease-in-out;
   -webkit-transition: 1.5s ease-in-out;
+}
+
+button.main-button {
+  background: $red;
+  border: none;
+  padding: 10px 15px;
+  @include border-radius(2px);
+  margin-top: 10px;
+
+  &:hover {
+    background: $red * 1.15; 
+  }
+
+  a {
+    color: $white;
+    font-weight: 500;
+    -webkit-font-smoothing: antialiased;
+
+    &:hover {
+      text-decoration: none;
+    }
+  } 
 }
 
 .cf:before,

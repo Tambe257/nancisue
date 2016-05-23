@@ -46,7 +46,7 @@ nav {
 
 nav.navbar {
   margin: 0;
-  border-bottom: 3px solid #a20000;
+  border-bottom: 3px solid $red;
 }
 /*  nav.shrink  */
 nav.shrink {
@@ -117,7 +117,7 @@ ul.left-nav {
       font-size: 17px;
       
       &:hover {
-        color: #a20000;
+        color: $red;
       }
     }
   }
@@ -146,8 +146,8 @@ ul.right-nav {
       transition: 0.3s;
       font-size: 17px;
       
-      a:hover {
-        color: #a20000;
+      &:hover {
+        color: $red;
       }
     }
   }
@@ -247,7 +247,7 @@ ul.topnav li.icon {display: none;}
   ul.topnav.responsive li {
     float: none;
     display: inline;
-    color: #a20000;
+    color: $red;
   }
   ul.topnav.responsive li a {
     display: block;
@@ -255,7 +255,7 @@ ul.topnav li.icon {display: none;}
     padding: 10px 20px;
     
     &:hover {
-      color: #a20000;
+      color: $red;
     }
   }
   
@@ -338,9 +338,9 @@ $bar-spacing: 5px;
 
 .hamburger-menu {
   position: absolute;
-  top: 0;
+  top: 25px;
   left: 0;
-  right: 0;
+  right: 25px;
   bottom: 0;
   margin: auto;
   width: $bar-width;

@@ -1,9 +1,10 @@
 #about {
   padding: 40px 0;
   text-align: center;
+  font-family: $main-font;
   
   h2 {
-    
+    font-weight: 700;
   }
   
   #about-avatar {
@@ -20,7 +21,7 @@
     clear: both;
     
     p {
-      font-size: 16px;
+      font-size: 18px;
       margin: 10px 0 30px 0;
     }
     
@@ -30,19 +31,19 @@
   }
   
   button {
-    background: $maroon;
+    background: $red;
     border: none;
     padding: 10px 15px;
     @include border-radius(5px);
     margin-top: 10px;
 
     &:hover {
-      background: $maroon * 1.15; 
+      background: $red * 1.15; 
     }
 
     a {
       color: $white;
-      font-weight: 500;
+      font-weight: 700;
       -webkit-font-smoothing: antialiased;
 
       &:hover {
