@@ -1,18 +1,33 @@
 .sales {
-  padding-top: 100px;
+  padding-top: 80px;
+  background: #DFDFE0;
+  
+  @include breakpoint(sm) {
+    padding-top: 100px;
+  }
   
   .sales-title {
     text-align: center;
     font-family: $main-font;
+    margin: 10px 0;
+    
+    @include breakpoint(sm) {
+      margin: 35px 0;
+    }
     
     h2 {
       font-weight: 600;
       text-transform: uppercase;
       margin-bottom: 0;
+      font-size: 30px;
+      
+      @include breakpoint(sm) {
+        font-size: 38px;
+      }
     }
     
     hr {
-      width: 20%;
+      width: 25%;
       border-color: $font-grey;
       margin-top: 5px;
     }
@@ -26,10 +41,13 @@
         margin: 0 15px;
         
         button.main-button {
+          padding: 10px;
           
-          
+          @include breakpoint(sm) {
+            padding: 10px 15px;
+          }
           a {
-            font-size: 20px;
+            font-size: 16px;
             font-weight: 700;
           } 
         }
@@ -44,7 +62,8 @@
     border: solid 1px #ccc;
     overflow: hidden;
     @include border-radius(5px);
-    margin: 10px auto;  
+    margin: 10px auto;
+    background: $white;
 
     @include breakpoint(sm) {
 

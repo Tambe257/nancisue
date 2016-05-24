@@ -23,6 +23,7 @@ nav {
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
+      font-size: 34px;
 
       span {
         color: $grey;
@@ -82,10 +83,6 @@ nav.shrink {
         font-size: 15px;
       }
     }
-  }
-  
-  ul.topnav {
-    height: 55px;
   }
   
   ul.topnav li a {
@@ -277,7 +274,7 @@ ul.topnav li.icon {display: none;}
       display: block;
       position: relative;
       float: right;
-      margin: 20px 5px 0 0;
+      margin: 20px 20px 0 0;
       
       a {
         color: $grey;
@@ -298,7 +295,7 @@ ul.topnav li.icon {display: none;}
   nav {
     .brand {
       margin: 0 0 5px 0;
-      width: 250px;
+      width: 260px;
 
       h1 {
         font-size: 22px;
@@ -313,7 +310,7 @@ ul.topnav li.icon {display: none;}
       display: block;
       position: relative;
       float: right;
-      margin: 15px 5px 0 0;
+      margin: 15px 20px 0 0;
       
       a {
         color: $grey;
