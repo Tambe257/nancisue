@@ -1100,6 +1100,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/sales\/mls-2605511.JPG": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 56155,
+		"inputAbbreviatedPath": "\/img\/sales\/mls-2605511.JPG",
+		"outputAbbreviatedPath": "\/img\/sales\/mls-2605511.JPG",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/sales\/mls-2635998.JPG": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1283,6 +1294,17 @@
 		"initialSize": 78134,
 		"inputAbbreviatedPath": "\/img\/sales\/mls-2760285.jpg",
 		"outputAbbreviatedPath": "\/img\/sales\/mls-2760285.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/sales\/mls-2768937.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 80801,
+		"inputAbbreviatedPath": "\/img\/sales\/mls-2768937.jpg",
+		"outputAbbreviatedPath": "\/img\/sales\/mls-2768937.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
