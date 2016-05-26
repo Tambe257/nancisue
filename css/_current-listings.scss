@@ -27,8 +27,7 @@
     border: solid 1px #ccc;
     overflow: hidden;
     height: 440px;
-    @include border-radius(5px); 
-
+    @include border-radius(5px);
 
     @include breakpoint (sm) {
       width: 350px;

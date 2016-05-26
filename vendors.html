@@ -25,32 +25,40 @@
 <body>
  
   <!--     nav      -->
-  <div class="nav-wrapper">
-     <nav class="navbar navbar-default affix" id="nav-nanci">
-      <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="index.html">Nanci Sue Rosenthal</a>
-        </div>
-    
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav" id="right-nav">
-            <li><a href="#current-listings" class="page-scroll">Current Listings</a></li>
-            <li><a href="sales.html" class="page-scroll">Sales Gallery</a></li>
-            <li><a href="#about" class="page-scroll">About Nanci Sue</a></li>
-            <li><a href="#contact" class="page-scroll">Get In Touch</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
-    </nav> 
-  </div>
+  <nav class="navbar navbar-fixed-top">
+    <div class="container">
+       <ul class="left-nav">
+         <li><a href="#current-listings" class="page-scroll">Current Listings</a></li>
+         <li><a href="sales.html" class="page-scroll">Sales Gallery</a></li>
+       </ul>
+       
+      <div class="brand">
+        <a href="index.html">
+         <h1><span class="heavy">Nanci Sue</span> Rosenthal</h1>
+          <h2>Licensed Real Estate Salesperson</h2>
+        </a>
+      </div>
+      
+      <ul class="right-nav">
+        <li><a href="nanci-sue.html" class="page-scroll">About Nanci Sue</a></li>
+        <li><a href="#contact" class="page-scroll">Get In Touch</a></li>
+     </ul>
+       
+      <div class="burger">
+        <a href="javascript:void(0);" onclick="myFunction()">
+          <div class="hamburger-menu">
+            <div class="bar"></div>	
+          </div>
+        </a>
+      </div>
+      <ul class="topnav">
+        <li><a href="index.html#current-listings" class="page-scroll">Current Listings</a></li>
+        <li><a href="sales.html" class="page-scroll">Sales Gallery</a></li>
+        <li><a href="nanci-sue.html" class="page-scroll">About Nanci Sue</a></li>
+        <li><a href="index.html#contact" class="page-scroll">Get In Touch</a></li>
+      </ul>
+    </div>
+  </nav>
 <!--     nav     -->
  
   <div class="vendor-banner">
@@ -62,62 +70,13 @@
   <div class="vendors">
     <div class="bricklayer">
       <div class="vendor-card" id="vendor-1">
-      <img src="img/vendors/wells-fargo.jpg" alt="Wells Fargo">
-      <div class="vendor-info">
-        <h4>Wells Fargo Home Mortgage</h4>
-        <p>Jeffrey L. Manyin - Director of Sales</p>
-      </div>
-    </div>
-
-      <div class="vendor-card" id="vendor-2">
-        <img src="img/vendors/aladdin-plumbing-corp.png" alt="">
+        <img src="img/vendors/wells-fargo.jpg" alt="Wells Fargo">
         <div class="vendor-info">
-          <h4>Aladdin Plumbing Corp.</h4>
-          <p>Randy Gitli - Licensed Master Plumber</p>
+          <h4>Wells Fargo Home Mortgage</h4>
+          <p>Jeffrey L. Manyin - Director of Sales</p>
         </div>
       </div>
 
-      <div class="vendor-card" id="vendor-3">
-        <img src="img/vendors/always-guarding.jpg" alt="">
-        <div class="vendor-info">
-          <h4>Always Guarding You</h4>
-          <h4>Home Inspection</h4>
-          <p>Nicholas Mancuso</p>
-        </div>
-      </div>
-
-      <div class="vendor-card" id="vendor-4">
-        <img src="img/vendors/CoachTitleAgency_small.jpg" alt="">
-        <div class="vendor-info">
-          <h4>Coach Title Agency</h4>
-          <p>Richard Costello - Account Executive</p>
-        </div>
-      </div>
-
-      <div class="vendor-card" id="vendor-5">
-        <img src="img/vendors/comerford.jpg" alt="">
-        <div class="vendor-info">
-          <h4>Comerford & Dougherty L.L.P.</h4>
-          <p>Maureen Dougherty - Attorney at Law</p>
-        </div>
-      </div>
-
-      <div class="vendor-card" id="vendor-6">
-        <img src="img/vendors/dicosimo.jpg" alt="">
-        <div class="vendor-info">
-          <h4>DiCosimo General Contracting</h4>
-          <p>Proudly serving L.I. for over 30 years!</p>
-        </div>
-      </div>
-      
-      <div class="vendor-card" id="vendor-7">
-        <img src="img/vendors/turnabout-plumbing.jpg" alt="Turnabout Plumbing">
-        <div class="vendor-info">
-          <h4>Turnabout Plumbing & Heating</h4>
-          <p>Serving New York since 1978</p>
-        </div>
-      </div>
-      
       <div class="vendor-card" id="vendor-8">
         <img src="img/vendors/hartford-funding.jpg" alt="Hartford Funding">
         <div class="vendor-info">
@@ -142,6 +101,47 @@
         </div>
       </div>
       
+      <div class="vendor-card" id="vendor-3">
+        <img src="img/vendors/always-guarding.jpg" alt="">
+        <div class="vendor-info">
+          <h4>Always Guarding You</h4>
+          <h4>Home Inspection</h4>
+          <p>Nicholas Mancuso</p>
+        </div>
+      </div>
+
+      <div class="vendor-card" id="vendor-13">
+        <img src="img/vendors/win.jpg" alt="">
+        <div class="vendor-info">
+          <h4>Win Home Inspection</h4>
+          <p>Rich Bodendorf, C.R.I.</p>
+        </div>
+      </div>
+      
+      <div class="vendor-card" id="vendor-14">
+        <img src="img/vendors/housemaster.jpg" alt="Housemaster">
+        <div class="vendor-info">
+          <h4>HouseMaster - Home Inspections</h4>
+          <p>Matthew Kaplan</p>
+        </div>
+      </div>
+      
+      <div class="vendor-card" id="vendor-4">
+        <img src="img/vendors/CoachTitleAgency_small.jpg" alt="">
+        <div class="vendor-info">
+          <h4>Coach Title Agency</h4>
+          <p>Richard Costello - Account Executive</p>
+        </div>
+      </div>
+
+      <div class="vendor-card" id="vendor-5">
+        <img src="img/vendors/comerford.jpg" alt="">
+        <div class="vendor-info">
+          <h4>Comerford & Dougherty L.L.P.</h4>
+          <p>Maureen Dougherty - Attorney at Law</p>
+        </div>
+      </div>
+
       <div class="vendor-card" id="vendor-11">
         <img src="img/vendors/burton.jpg" alt="Burton & Burton P.C.">
         <div class="vendor-info">
@@ -158,19 +158,19 @@
         </div>
       </div>
       
-      <div class="vendor-card" id="vendor-13">
-        <img src="img/vendors/win.jpg" alt="">
+      <div class="vendor-card" id="vendor-6">
+        <img src="img/vendors/dicosimo.jpg" alt="">
         <div class="vendor-info">
-          <h4>Win Home Inspection</h4>
-          <p>Rich Bodendorf, C.R.I.</p>
+          <h4>DiCosimo General Contracting</h4>
+          <p>Proudly serving L.I. for over 30 years!</p>
         </div>
       </div>
       
-      <div class="vendor-card" id="vendor-14">
-        <img src="img/vendors/housemaster.jpg" alt="Housemaster">
+      <div class="vendor-card" id="vendor-7">
+        <img src="img/vendors/turnabout-plumbing.jpg" alt="Turnabout Plumbing">
         <div class="vendor-info">
-          <h4>HouseMaster - Home Inspections</h4>
-          <p>Matthew Kaplan</p>
+          <h4>Turnabout Plumbing & Heating</h4>
+          <p>Serving New York since 1978</p>
         </div>
       </div>
       
@@ -232,6 +232,7 @@
     <a href="#0" class="close-content cd-img-replace closeContent" id="close"></a>
   </div> 
   
+<!--
   <div class="vendor-content content" id="vendor-2-content">
     <div>
       <img src="img/vendors/aladdin-plumbing-corp.png" alt="Aladdin Plumbing Corp.">
@@ -248,6 +249,7 @@
     </div>
     <a href="#0" class="close-content cd-img-replace closeContent" id="close"></a>
   </div> 
+-->
   
   <div class="vendor-content content" id="vendor-3-content">
     <div>
@@ -346,7 +348,7 @@
       <em>Steven Paul Ross</em>
       <p>NMLS#: 71781</p>
       <ul class="vendor-list">
-        <li><a href="http://www.hartfordfunding.com/">www.hartfordfunding.com</a></li>
+        <li><a href="http://www.hartfordfunding.com/" target="_blank">www.hartfordfunding.com</a></li>
         <li>sross@hartfordfunding.com</li>
         <li>Office: 631-204-6438</li>
         <br>
