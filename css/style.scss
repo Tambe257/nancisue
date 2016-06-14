@@ -9,7 +9,10 @@ $coach-blue: #0068b3;
 @import "mixins";
 @include font-face(Montserrat, "/fonts/Montserrat");
 
-$main-font: 'Work Sans', sans-serif;
+$main-font: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+$button-font: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+$brand-font: 'Work Sans', sans-serif;
+
 
 * {
 	box-sizing: border-box;

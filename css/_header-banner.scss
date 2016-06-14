@@ -76,7 +76,7 @@ header {
       width: 240px;
       background: $white;
       text-align: center;
-      margin: 50px auto 0;
+      margin: 10px auto 0;
       
       @include breakpoint(sm) {
         float: left;

@@ -90,6 +90,7 @@
   height: 100%;
   padding: 50px 0 0 0;
   visibility: hidden;
+  text-align: center;
   background-color: #ebebeb;
   /* Force Hardware Acceleration */
   -webkit-transform: translateZ(0);
@@ -187,6 +188,7 @@ ul.vendor-list {
   max-width: 400px;
   list-style: none;
   margin-top: 20px;
+  padding: 0;
   
   li {
     font-size: 20px;

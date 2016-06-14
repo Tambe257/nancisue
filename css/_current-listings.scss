@@ -62,7 +62,7 @@
             background: $red;
             border: none;
             padding: 10px 15px;
-            @include border-radius(2px);
+            @include border-radius(5px);
             margin-top: 10px;
 
             &:hover {
@@ -72,17 +72,13 @@
             a {
               color: $white;
               font-weight: 700;
-              font-family: $main-font;
+              font-family: $button-font;
               -webkit-font-smoothing: antialiased;
 
               &:hover {
                 text-decoration: none;
               }
             } 
-          }
-
-          h3 {
-
           }
 
           p {

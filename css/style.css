@@ -91,7 +91,7 @@ header {
         text-align: center; } }
     header .header-info h1 {
       font-size: 3rem;
-      font-family: "Work Sans", sans-serif;
+      font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
       text-transform: uppercase;
       font-weight: 200;
       margin: 0; }
@@ -130,7 +130,7 @@ header {
       width: 240px;
       background: #fff;
       text-align: center;
-      margin: 50px auto 0; }
+      margin: 10px auto 0; }
       @media (min-width: 768px) {
         .banner .banner-content .nanci-card {
           float: left; } }
@@ -238,6 +238,8 @@ nav {
       color: #4a4b4f;
       margin: 5px 0;
       font-size: 24px;
+      font-family: "Work Sans", sans-serif;
+      font-weight: 500;
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out; }
@@ -409,9 +411,19 @@ ul.topnav li.icon {
 
   nav .brand {
     margin: 0 0 5px 0;
-    width: 350px; }
+    width: 310px;
+    text-align: left; } }
+  @media screen and (max-width: 1199px) and (min-width: 768px) {
+    nav .brand {
+      text-align: center;
+      width: 350px; } }
+@media screen and (max-width: 1199px) {
     nav .brand h1 {
-      font-size: 28px; }
+      font-size: 24px; } }
+    @media screen and (max-width: 1199px) and (min-width: 768px) {
+      nav .brand h1 {
+        font-size: 28px; } }
+@media screen and (max-width: 1199px) {
     nav .brand h2 {
       font-size: 18px; }
   nav .burger {
@@ -510,7 +522,7 @@ ul.topnav li.icon {
     margin: 30px 0 0 0;
     color: #4a4b4f;
     text-align: center;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
     font-weight: 700; }
   #current-listings hr {
     width: 30%;
@@ -547,17 +559,17 @@ ul.topnav li.icon {
           background: #a20000;
           border: none;
           padding: 10px 15px;
-          -webkit-border-radius: 2px;
-          -moz-border-radius: 2px;
-          -ms-border-radius: 2px;
-          border-radius: 2px;
+          -webkit-border-radius: 5px;
+          -moz-border-radius: 5px;
+          -ms-border-radius: 5px;
+          border-radius: 5px;
           margin-top: 10px; }
           #current-listings .current-listing .current-listing-info ul li button:hover {
             background: #ba0000; }
           #current-listings .current-listing .current-listing-info ul li button a {
             color: #fff;
             font-weight: 700;
-            font-family: "Work Sans", sans-serif;
+            font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
             -webkit-font-smoothing: antialiased; }
             #current-listings .current-listing .current-listing-info ul li button a:hover {
               text-decoration: none; }
@@ -624,7 +636,7 @@ ul.topnav li.icon {
       background: #ba0000; }
     #third-section button a {
       color: #fff;
-      font-weight: 500;
+      font-weight: 700;
       -webkit-font-smoothing: antialiased; }
       #third-section button a:hover {
         text-decoration: none; }
@@ -633,11 +645,11 @@ ul.topnav li.icon {
   padding: 3rem 0;
   background: rgba(206, 206, 206, 0.5);
   text-align: center;
-  font-family: "Work Sans", sans-serif;
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
   font-weight: 700; }
   @media (min-width: 768px) {
     #contact {
-      padding: 5rem 0; } }
+      padding: 5.5rem 0; } }
   #contact .contact-info {
     text-align: center;
     font-weight: 700; }
@@ -704,23 +716,23 @@ footer {
       text-align: right; } }
 
 .sales {
-  padding-top: 80px;
+  padding: 100px 0 80px 0;
   background: #DFDFE0; }
   @media (min-width: 768px) {
     .sales {
       padding-top: 100px; } }
   .sales .sales-title {
     text-align: center;
-    font-family: "Work Sans", sans-serif;
-    margin: 10px 0; }
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 10px 0 50px 0; }
     @media (min-width: 768px) {
       .sales .sales-title {
-        margin: 35px 0; } }
+        margin: 50px 0; } }
     .sales .sales-title h2 {
       font-weight: 600;
       text-transform: uppercase;
-      margin-bottom: 0;
-      font-size: 30px; }
+      margin: 0;
+      font-size: 28px; }
       @media (min-width: 768px) {
         .sales .sales-title h2 {
           font-size: 38px; } }
@@ -730,12 +742,14 @@ footer {
       margin-top: 5px; }
     .sales .sales-title ul.sales-years {
       list-style: none;
-      padding: 0; }
+      padding: 0;
+      margin: 0; }
       .sales .sales-title ul.sales-years li {
         display: inline-block;
         margin: 0 15px; }
         .sales .sales-title ul.sales-years li button.main-button {
-          padding: 10px; }
+          padding: 10px;
+          font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
           @media (min-width: 768px) {
             .sales .sales-title ul.sales-years li button.main-button {
               padding: 10px 15px; } }
@@ -752,7 +766,7 @@ footer {
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     border-radius: 5px;
-    margin: 10px auto;
+    margin: 0px auto 30px;
     background: #fff; }
     .sales .listing .listing-pic {
       display: block;
@@ -781,9 +795,9 @@ footer {
           font-size: 1.5rem; }
 
 #about {
-  padding: 40px 0;
+  padding: 40px 0 60px 0;
   text-align: center;
-  font-family: "Work Sans", sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
   #about h2 {
     font-weight: 700; }
   #about #about-avatar {
@@ -816,7 +830,8 @@ footer {
     #about button a {
       color: #fff;
       font-weight: 700;
-      -webkit-font-smoothing: antialiased; }
+      -webkit-font-smoothing: antialiased;
+      font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
       #about button a:hover {
         text-decoration: none; }
 
@@ -830,7 +845,7 @@ footer {
   text-align: center;
   padding: 40px 0 10px 0;
   margin-top: 60px;
-  font-family: "Work Sans", sans-serif; }
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif; }
   .vendor-banner h1 {
     font-size: 40px;
     font-weight: 700; }
@@ -892,6 +907,7 @@ footer {
   height: 100%;
   padding: 50px 0 0 0;
   visibility: hidden;
+  text-align: center;
   background-color: #ebebeb;
   /* Force Hardware Acceleration */
   -webkit-transform: translateZ(0);
@@ -983,7 +999,8 @@ footer {
 ul.vendor-list {
   max-width: 400px;
   list-style: none;
-  margin-top: 20px; }
+  margin-top: 20px;
+  padding: 0; }
   ul.vendor-list li {
     font-size: 20px;
     margin: 10px 0; }
@@ -1039,14 +1056,16 @@ Keyframes
     width: 50%; } }
 #coach {
   position: relative;
-  clear: both; }
+  clear: both;
+  overflow: hidden; }
   #coach header {
     text-align: center;
     color: #fff;
     position: relative;
     height: 100%;
     background: #0068b3;
-    display: block; }
+    display: block;
+    padding: 50px 0; }
     #coach header img {
       display: inline-block;
       padding: 30px 0; }
@@ -1061,32 +1080,82 @@ Keyframes
       display: inline-block;
       margin: 20px 10px; }
 
-.nanci-avatar {
-  clear: both;
-  text-align: center; }
-  @media (min-width: 992px) {
-    .nanci-avatar {
-      text-align: left; } }
-  .nanci-avatar img {
-    -webkit-border-radius: 180px;
-    -moz-border-radius: 180px;
-    -ms-border-radius: 180px;
-    border-radius: 180px;
-    height: 200px;
-    border: 4px solid #fff;
-    margin: -100px 0 0 0;
-    position: relative; }
-    @media (min-width: 992px) {
-      .nanci-avatar img {
-        margin: -100px 0 0 30px; } }
-
 .nanci-banner {
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/sample-image.jpg") center no-repeat;
+  background: linear-gradient(to bottom, #1c69b3, #1c69b3);
   color: #fff;
-  text-align: center;
   width: 100%;
-  font-family: "Work Sans", sans-serif;
-  clear: both; }
+  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  clear: both;
+  height: 560px;
+  padding-top: 40px; }
+  @media (min-width: 768px) {
+    .nanci-banner {
+      height: 500px;
+      padding-top: 80px; } }
+  @media (min-width: 992px) {
+    .nanci-banner {
+      height: 300px;
+      padding-top: 100px; } }
+  .nanci-banner .nanci-avatar {
+    clear: both;
+    text-align: center; }
+    @media (min-width: 992px) {
+      .nanci-banner .nanci-avatar {
+        text-align: left; } }
+    .nanci-banner .nanci-avatar img {
+      -webkit-border-radius: 180px;
+      -moz-border-radius: 180px;
+      -ms-border-radius: 180px;
+      border-radius: 180px;
+      height: 200px;
+      border: 4px solid #fff;
+      margin: 60px 0 0 0;
+      position: relative; }
+      @media (min-width: 992px) {
+        .nanci-banner .nanci-avatar img {
+          margin: 100px 0 0 30px; } }
+  .nanci-banner ul.designations {
+    list-style: none;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin-top: 90px; }
+    @media (min-width: 768px) {
+      .nanci-banner ul.designations {
+        padding: 0;
+        margin-top: 100px; } }
+    .nanci-banner ul.designations li {
+      font-size: 15px;
+      color: #fff;
+      font-weight: 700; }
+      @media (min-width: 992px) {
+        .nanci-banner ul.designations li {
+          font-size: 17px; } }
+  .nanci-banner ul.top-lister {
+    list-style: none;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 30px 0 10px 0;
+    padding: 0;
+    text-align: center; }
+    @media (min-width: 768px) {
+      .nanci-banner ul.top-lister {
+        margin: 100px 0 0 0;
+        padding-left: 40px; } }
+    .nanci-banner ul.top-lister li {
+      display: inline-block; }
+      .nanci-banner ul.top-lister li img {
+        height: 70px;
+        margin: 0 5px; }
+        @media (min-width: 992px) {
+          .nanci-banner ul.top-lister li img {
+            height: 100px;
+            margin: 0 15px; } }
   .nanci-banner h1 {
     font-size: 40px;
     font-weight: 700;
@@ -1105,7 +1174,31 @@ Keyframes
         font-size: 30px; } }
     @media (min-width: 992px) {
       .nanci-banner h2 {
-        margin: 0 0 80px 0; } }
+        margin: 0; } }
+
+.nanci-info {
+  margin-bottom: 0px; }
+  @media (min-width: 992px) {
+    .nanci-info {
+      margin-bottom: 30px; } }
+  .nanci-info h2 {
+    text-align: center;
+    margin: 35px 0 0 0;
+    font-size: 24px; }
+    @media (min-width: 992px) {
+      .nanci-info h2 {
+        margin: -50px 0 0 0;
+        font-size: 40px; } }
+  .nanci-info hr {
+    border-color: #4a4b4f;
+    width: 50%;
+    margin-bottom: 30px; }
+  .nanci-info p {
+    font-size: 16px;
+    margin-bottom: 30px; }
+    @media (min-width: 992px) {
+      .nanci-info p {
+        font-size: 18px; } }
 
 .fadeIn-brand {
   opacity: 1; }

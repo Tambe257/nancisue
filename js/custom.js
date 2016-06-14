@@ -1,3 +1,14 @@
+/* box slider */
+
+$(document).ready(function(){
+  $('.bxslider').bxSlider({
+    minSlides: 1,
+    maxSlides: 3,
+    slideWidth: 387,
+    slideMargin: 0
+  });
+});
+
 $(window).scroll(function() {
   if ($(document).scrollTop() > 100) {
     $('nav').addClass('shrink');
@@ -10,11 +21,11 @@ $('.burger a').click(function(){
   $('.topnav').toggleClass('responsive');
 });
 
-(function () {
+$(function () {
 	$('.hamburger-menu').on('click', function() {
 		$('.bar').toggleClass('animate');
-	})
-})();
+	});
+});
 
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
@@ -43,22 +54,11 @@ $(function() {
 
       if( bottom_of_window > bottom_of_object ){
 
-          $('div#box1').addClass('animate3');
-          $('div#box2').addClass('animate2');
-          $('div#box3').addClass('animate1');
+        $('div#box1').addClass('animate3');
+        $('div#box2').addClass('animate2');
+        $('div#box3').addClass('animate1');
       }
     }); 
-  });
-});
-
-/* box slider */
-
-$(document).ready(function(){
-  $('.bxslider').bxSlider({
-    minSlides: 1,
-    maxSlides: 3,
-    slideWidth: 387,
-    slideMargin: 0
   });
 });
 
@@ -77,9 +77,9 @@ $(function () {
 });
 
 $(function() {
-   $('.vendor-content').click(function() {
+ $('.vendor-content').click(function() {
 
-     $(this).removeClass('is-visible');
+    $(this).removeClass('is-visible');
 
-   });
+  });
 });

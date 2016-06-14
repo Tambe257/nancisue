@@ -19,7 +19,7 @@ nav {
       margin: 5px 0;
       text-transform: uppercase;
       font-weight: 200;
-      font-family: $main-font;
+      font-family: $brand-font;
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
@@ -34,6 +34,8 @@ nav {
       color: $font-grey;
       margin: 5px 0;
       font-size: 24px;
+      font-family: $brand-font;
+      font-weight: 500;
       -webkit-transition: all 0.3s ease-in-out;
       -moz-transition: all 0.3s ease-in-out;
       transition: all 0.3s ease-in-out;
@@ -259,10 +261,20 @@ ul.topnav li.icon {display: none;}
   nav {
     .brand {
       margin: 0 0 5px 0;
-      width: 350px;
+      width: 310px;
+      text-align: left;
+      
+      @include breakpoint(sm) {
+        text-align: center;
+        width: 350px;
+      }
 
       h1 {
-        font-size: 28px;
+        font-size: 24px;
+        
+        @include breakpoint(sm) {
+          font-size: 28px;
+        }
       }
 
       h2 {

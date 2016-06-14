@@ -1,5 +1,5 @@
 .sales {
-  padding-top: 80px;
+  padding: 100px 0 80px 0;
   background: #DFDFE0;
   
   @include breakpoint(sm) {
@@ -9,17 +9,17 @@
   .sales-title {
     text-align: center;
     font-family: $main-font;
-    margin: 10px 0;
+    margin: 10px 0 50px 0;
     
     @include breakpoint(sm) {
-      margin: 35px 0;
+      margin: 50px 0;
     }
     
     h2 {
       font-weight: 600;
       text-transform: uppercase;
-      margin-bottom: 0;
-      font-size: 30px;
+      margin: 0;
+      font-size: 28px;
       
       @include breakpoint(sm) {
         font-size: 38px;
@@ -35,6 +35,7 @@
     ul.sales-years {
       list-style: none;
       padding: 0;
+      margin: 0;
       
       li {
         display: inline-block;
@@ -42,6 +43,7 @@
         
         button.main-button {
           padding: 10px;
+          font-family: $button-font;
           
           @include breakpoint(sm) {
             padding: 10px 15px;
@@ -62,7 +64,7 @@
     border: solid 1px #ccc;
     overflow: hidden;
     @include border-radius(5px);
-    margin: 10px auto;
+    margin: 0px auto 30px;
     background: $white;
 
     @include breakpoint(sm) {

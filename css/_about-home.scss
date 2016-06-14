@@ -1,5 +1,5 @@
 #about {
-  padding: 40px 0;
+  padding: 40px 0 60px 0;
   text-align: center;
   font-family: $main-font;
   
@@ -45,6 +45,7 @@
       color: $white;
       font-weight: 700;
       -webkit-font-smoothing: antialiased;
+      font-family: $button-font;
 
       &:hover {
         text-decoration: none;
